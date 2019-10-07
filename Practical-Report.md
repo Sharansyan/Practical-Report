@@ -11,18 +11,18 @@
 #  1. Hello World
 
 
-   #include<stdio.h>
-   void main()
-   {
-   puts("\nHello World\n");
-   }
+     #include<stdio.h>
+     void main()
+     {
+     puts("\nHello World\n");
+     }
 ---------------------------------------------------------------------------
 #  2. To Find Sum
 
 
-   #include<stdio.h>
-   int main()
-   {
+      #include<stdio.h>
+      int main()
+      {  
         float x,y,z;
 
         printf("\nEnter The First Numder: ");
@@ -36,14 +36,14 @@
         printf("\nAnswer is: = %.3f", z);
 
         return 0;
-   }
+      }
 ----------------------------------------------------------------------------
 #  3. Table
 
 
-   #include<stdio.h>
-   int main()
-   {
+      #include<stdio.h>
+      int main()
+        {
         float x;
         int n;
 
@@ -54,18 +54,18 @@
         scanf("%d",&n);
 
         for(int y=1; y<=n; y++)
-   {
+        {
         printf("\n%.2f x %d = %.3f",x,y,x*y);
-   }
+        }
         return 0;
-   }
+        }
 -----------------------------------------------------------------------------
 #  4. Circle
 
 
-   #include<stdio.h>
-   int main()
-   {
+      #include<stdio.h>
+      int main()
+      {
         float r,P,A,V;
         float pi = 22/7.0;
 
@@ -83,14 +83,14 @@
         printf("\nVolume of Circle is: = %.2f",V);
 
         return 0;
-   }
+      }
 ---------------------------------------------------------------------------
 #  5. Square
 
 
-   #include<stdio.h>
-   int main()
-   {
+      #include<stdio.h>
+      int main()
+      {
         float h,b,A,P;
 
         printf("\nEnter Height: ");
@@ -106,15 +106,16 @@
         printf("\nPerimeter of Sqare (or) Rectangle: = %.3f",P);
 
         return 0;
-   }
+      }
 -------------------------------------------------------------------------
 #  6. To find Interest
 
-   #include<stdio.h>
-   int main()
-   {
+
+      #include<stdio.h>
+      int main()
+      {
         float P,R,T,Interest;
-   {
+      {
         printf("\nEnter The Principal Amount: ");
         scanf("%f", &P);
 
@@ -128,17 +129,17 @@
         
         printf("\nSimple Intesest is: = %.2f", Interest);
 
-   }
+      }
         return Interest;
-   }
+      }
 ----------------------------------------------------------------------
 #  7. To Find Maximum
 
 
-   #include<stdio.h>
-   int max(float x,float y);
-   int main()
-   {
+      #include<stdio.h>
+      int max(float x,float y);
+      int main()
+      {
         float x,y,z;
 
         printf("\nEnter The First Value: ");
@@ -152,9 +153,9 @@
         printf("\nMaximum value is: %.2f\n", z);
 
         return 0;
-   }
-   int max(float x,float y)
-   {
+      }
+        int max(float x,float y)
+      {
         float result;
 
         if(x<y)
@@ -163,29 +164,29 @@
                 result = x;
 
         return result;
-   }
+      }
 ----------------------------------------------------------------------
 #  8. Sum of Constants
 
 
-   #include<stdio.h>
-   int main()
-   {
+        #include<stdio.h>
+        int main()
+    {
         int a=100,b=120,c;
         c = a+b;
         printf("\na=100\nb=120\nSum  of a and b is :%d",c);
         return 0;
-   }
+    }
 ----------------------------------------------------------------------
 #  9. To Find Minimum
 
 
-   #include<stdio.h>
-   int min(float x,float y);
-   int main()
+        #include<stdio.h>
+        int min(float x,float y);
+        int main()
 
-   {
-   float x,y,z;
+    {
+        float x,y,z;
 
         printf("\nEnter The First Value: ");
         scanf("%f",&x);
@@ -198,11 +199,11 @@
         printf("\nMinimum value is: %.2f\n", z);
 
         return 0;
-   }
+    }
 
-   int min(float x,float y)
+     int min(float x,float y)
 
-   {
+    {
         float result;
 
         if(x<y)
@@ -211,14 +212,14 @@
                 result = y;
 
         return result;
-   }
+    }
 ----------------------------------------------------------------------
 #  10. Bio Data of Students
   
   
-   #include<stdio.h>
-   int main()
-   {
+      #include<stdio.h>
+      int main()
+    {
         int n,R;
         char name[25];
 
@@ -226,7 +227,7 @@
         scanf("%d",&n);
 
         for(int i=1; i<=n;i++)
-   {
+    {
         printf("\nEnter The Name of The Student : ");
         scanf("%s", name);
 
@@ -234,16 +235,16 @@
         scanf("%d",&R);
 
         printf("\nName = %s\nRoll No. = %d\n", name,R);
-   }
+    }
         return 0;
-   }
+    }
 ----------------------------------------------------------------------
 #  11. Arithmetic Operators
 
 
-   #include<stdio.h>
-   int main()
-   {
+    #include<stdio.h>
+    int main()
+    {
 
         float x,y,a;
 
@@ -267,14 +268,14 @@
         printf("y/x = %.3f\n",a);
 
         return 0;
-   }
+    }
 ----------------------------------------------------------------------
 #  12. Assignment Operators
 
 
-   #include<stdio.h>
-   int main()
-   {
+    #include<stdio.h>
+    int main()
+    {
 
         float x,a;
 
@@ -293,15 +294,15 @@
         printf("Answer is a/x= %.3f\n",a);
 
         return 0;
-   }
+    }
 ----------------------------------------------------------------------
 #  13. Operator Precedence
 
 
-   #include<stdio.h>
+    #include<stdio.h>
  
-   int main()
-   {
+    int main()
+    {
         float a,b,c,d,A;
 
         printf("\nEnter The Value of a: ");
@@ -326,115 +327,115 @@
         printf(" (b-c)*(a-d) = %.3f",A);
 
         return 0;
-   }
+    }
 ----------------------------------------------------------------------
 #  14. Average
 
 
-   #include<stdio.h>
-   float average();
+    #include<stdio.h>
+    float average();
 
-   int main()
-   {
-   printf("\nAverage is: %.2f",average());
-   return 0;
-   }
+    int main()
+    {
+    printf("\nAverage is: %.2f",average());
+    return 0;
+    }
 
-   float average()
-   {
-   float x,y,z,s,a;
+    float average()
+    {
+    float x,y,z,s,a;
 
-   printf("\nEnter The First Value: ");
-   scanf("%f",&x);
+    printf("\nEnter The First Value: ");
+    scanf("%f",&x);
 
-   printf("Enter The Second Value: ");
-   scanf("%f",&y);
+    printf("Enter The Second Value: ");
+    scanf("%f",&y);
    
-   printf("Enter The Third Value: ");
-   scanf("%f",&z);
+    printf("Enter The Third Value: ");
+    scanf("%f",&z);
 
-   s = x+y+z;
-   a = s/3;
-   return a;
-   }
+    s = x+y+z;
+    a = s/3;
+    return a;
+    }
 ----------------------------------------------------------------------
 #  15. F using #
 
 
-   #include<stdio.h>
-   int main()
-   {
+    #include<stdio.h>
+    int main()
+    {
 
         printf("\n########\n#\n#\n#\n#####\n#\n#\n#\n#\n#\n#\n");
         return 0;
 
-   }
+    }
 ----------------------------------------------------------------------
 #  16. FizzBuzz
 
 
-   #include<stdio.h>
-   int main()
-   {
-   int n;
-   printf("\nEnter the Interger: ");
-   scanf("%d",&n);
+    #include<stdio.h>
+    int main()
+    {
+    int n;
+    printf("\nEnter the Interger: ");
+    scanf("%d",&n);
 
-   if(n%3==0)
-   printf("\nFizz");
-   if(n%5==0)
-   printf("Buzz\n");
-   else
-   printf("\n%d",n);
-   return 0;
-   }
+    if(n%3==0)
+    printf("\nFizz");
+    if(n%5==0)
+     printf("Buzz\n");
+    else
+    printf("\n%d",n);
+    return 0;
+    }
 ----------------------------------------------------------------------
 #  17. Print Calculator
 
 
-   #include<stdio.h>
-   void main()
-   {
-   puts("\n\
-    _______________\n\
-   | 1 | 2 | 3 |   |\n\
-   |___|___|___|   |\n\
-   | 4 | 5 | 6 | + |\n\
-   |___|___|___|___|\n\
-   | 7 | 8 | 9 | - |\n\
-   |___|___|___|___|\n\
-   |     0     | * |\n\
-   |___________|___|\n");
-   }
+    #include<stdio.h>
+    void main()
+    {
+    puts("\n\
+     _______________\n\
+    | 1 | 2 | 3 |   |\n\
+    |___|___|___|   |\n\
+    | 4 | 5 | 6 | + |\n\
+    |___|___|___|___|\n\
+    | 7 | 8 | 9 | - |\n\
+    |___|___|___|___|\n\
+    |     0     | * |\n\
+    |___________|___|\n");
+    }
 ----------------------------------------------------------------------
 #  18. Face
 
 
-   #include<stdio.h>
-   void main()
-   {
-   puts("________________");
-   puts("|   XXXXXXXXX  |");
-   puts("|   ( ^   ^ )  |");
-   puts("|   ( 0   0 )  |");
-   puts("|    \\  |  /   |");
-   puts("|     \\ = /    |");
-   puts("|      \\_/     |");
-   puts("|       |      |");
-   puts("|_______|______|\n");
-      }
+    #include<stdio.h>
+    void main()
+    {
+    puts("________________");
+    puts("|   XXXXXXXXX  |");
+    puts("|   ( ^   ^ )  |");
+    puts("|   ( 0   0 )  |");
+    puts("|    \\  |  /   |");
+    puts("|     \\ = /    |");
+    puts("|      \\_/     |");
+    puts("|       |      |");
+    puts("|_______|______|\n");
+    }
 ----------------------------------------------------------------------
 #  19. Addition of 2x2 Matrix
 
 
-   #include<stdio.h>
-   int main()
+    #include<stdio.h>
+    int main()
 
-   {
-   float a,b,c,d,e,f,g,h,i,j,k,l;
+    {
+    float a,b,c,d,e,f,g,h,i,j,k,l;
 
-   printf("\nSample of Ist matrix: | a=1      b=2 |\n                      | c=3      d=4 |\n\n\
-   Sample of 2nd matrix: | e=5      f=6 |\n                      | f=7      h=8 |\n\n");
+    printf("\nSample of Ist matrix: | a=1      b=2 |\n                      | c=3      d=4 |\n\n\
+    Sample of 2nd matrix: | e=5      f=6 |\n                      | f=7      h=8 |\n\n");
 
         printf("Enter The Valve of a: ");
         scanf("%f",&a);
@@ -510,20 +511,20 @@
         printf("\nMultiplication of A,B is: | %.2f     %.2f |\n                          | %.2f     %.2f |",i,j,k,l);
 
         return 0;
-   }
+    }
 ----------------------------------------------------------------------
 #  21. FizzBuzz loop
 
 
-   #include<stdio.h>
-   int main()
-   {
+    #include<stdio.h>
+    int main()
+    {
         int n,x;
         printf("\nEnter The Integer: ");
         scanf("%d",&n);
         printf("\n");
 
-   {
+    {
         for(x=1;x<=n;x++)
         if(x%15==0)
         printf("FizzBuzz\n");
@@ -533,8 +534,8 @@
         printf("Buzz\n");
         else
         printf("%d\n",x);
-   }
+     }
 
         return 0;
-   }
+    }
 ----------------------------------------------------------------------
