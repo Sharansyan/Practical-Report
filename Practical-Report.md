@@ -16,6 +16,8 @@
     {
     puts("\nHello World\n");
     }
+    
+##Output of the program##
 ---------------------------------------------------
 #  2. Program to find Sum
 
@@ -37,6 +39,8 @@
 
     return 0;
     }
+    
+##Output of the program##
 -------------------------------------------------
 #  3. Program to print a Table
 
@@ -59,6 +63,8 @@
      }
     return 0;
     }
+
+##Output of the program##
 ----------------------------------------------
 #  4. Program to find Area, Perieter, Volume of a Circle
 
@@ -83,6 +89,8 @@
 
     return 0;
     }
+
+##Output of the program##
 ---------------------------------------------------
 #  5. Program to find Area, Perimeter of a Rectangle
 
@@ -106,6 +114,8 @@
 
     return 0;
     }
+
+##Output of the program##
 -------------------------------------------------------------
 #  6. Program to find Interest
 
@@ -128,6 +138,8 @@
     printf("\nSimple Intesest is: = %.2f", Interest);
     return Interest;
     }
+
+##Output of the program##
 ------------------------------------------------------
 #  7. Program to find Maximum
 
@@ -161,6 +173,8 @@
 
     return result;
     }
+
+##Output of the program##
 -------------------------------------------------
 #  8. Program of Sum of two Constants
 
@@ -173,6 +187,8 @@
     printf("\na=100\nb=120\nSum  of a and b is :%d",c);
     return 0;
     }
+
+##Output of the program##
 --------------------------------------------------------
 #  9. Program To find Minimum
 
@@ -209,6 +225,8 @@
 
     return result;
     }
+
+##Output of the program##
 -----------------------------------------------
 #  10. Program to print Bio Data of Students
   
@@ -234,6 +252,8 @@
      }
     return 0;
     }
+
+##Output of the program##
 -----------------------------------------------------
 #  11. Program to use Arithmetic Operators
 
@@ -264,6 +284,8 @@
 
     return 0;
     }
+
+##Output of the program##
 --------------------------------------------------
 #  12. Program to use Assignment Operators
 
@@ -290,6 +312,8 @@
 
     return 0;
     }
+
+##Output of the program##
 --------------------------------------------------
 #  13. Program to use Operator Precedence
 
@@ -323,6 +347,8 @@
 
     return 0;
     }
+
+##Output of the program##
 ----------------------------------------------------
 #  14. Program to find Average
 
@@ -353,6 +379,8 @@
     a = s/3;
     return a;
     }
+
+##Output of the program##
 ---------------------------------------------------
 #  15. Program to print F by using #
 
@@ -365,6 +393,8 @@
     return 0;
 
     }
+
+##Output of the program##
 ----------------------------------------------------------------
 #  16. Program to find FizzBuzz od a Integer
 
@@ -384,6 +414,8 @@
     printf("\n%d",n);
     return 0;
     }
+
+##Output of the program##
 ----------------------------------------------------
 #  17. Program of print a Calculator using puts function 
 
@@ -402,6 +434,8 @@
     |     0     | * |\n\
     |___________|___|\n");
     }
+
+##Output of the program##
 -------------------------------------------------------
 #  18. Program to print a Face using puts function
 
@@ -419,6 +453,8 @@
     puts("|       |      |");
     puts("|_______|______|\n");
     }
+
+##Output of the program##
 ---------------------------------------------------------------------------------------------------
 #  19. Program of Addition of 2x2 Matrix
 
@@ -469,6 +505,8 @@
          
     return 0;
     }
+
+##Output of the program##
 ----------------------------------------------------------------------------------------------------------------------------------
 #  20. Program of Multiplication of 2x2 Matrix
 
@@ -507,6 +545,8 @@
 
     return 0;
     }
+
+##Output of the program##
 -------------------------------------------------------------------------------------------------------------------------------
 #  21. Program of FizzBuzz in a continues loop
 
@@ -533,4 +573,5 @@
 
      return 0;
     }
------------------------------------------------
+
+##Output of the program##
