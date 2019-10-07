@@ -8,7 +8,7 @@
 ## **DEPARTMENT OF CIVIL ENGENEERING**
 # **GURU NANAK DEV ENGENEERING COLLEGE,LUDHIANA**
 ---------------------------------------------------------------------------
-1. Hello World
+#  1. Hello World
 
 #include<stdio.h>
 void main()
@@ -16,7 +16,7 @@ void main()
 puts("\nHello World\n");
 }
 ---------------------------------------------------------------------------
-2. To Find Sum
+#  2. To Find Sum
 
 #include<stdio.h>
 int main()
@@ -36,7 +36,7 @@ int main()
         return 0;
 }
 ----------------------------------------------------------------------------
-3. Table
+#  3. Table
 
 #include<stdio.h>
 int main()
@@ -57,7 +57,7 @@ int main()
         return 0;
 }
 -----------------------------------------------------------------------------
-4. Circle
+#  4. Circle
 
 #include<stdio.h>
 int main()
@@ -81,7 +81,7 @@ int main()
         return 0;
 }
 ---------------------------------------------------------------------------
-5. Square
+#  5. Square
 
 #include<stdio.h>
 int main()
@@ -103,7 +103,7 @@ int main()
         return 0;
 }
 -------------------------------------------------------------------------
-6. To find Interest
+#  6. To find Interest
 
 #include<stdio.h>
 int main()
@@ -127,7 +127,7 @@ int main()
         return Interest;
 }
 ----------------------------------------------------------------------
-7. To Find Maximum
+#  7. To Find Maximum
 
 #include<stdio.h>
 int max(float x,float y);
@@ -159,7 +159,7 @@ int max(float x,float y)
         return result;
 }
 ----------------------------------------------------------------------
-8. Sum of Constants
+#  8. Sum of Constants
 
 #include<stdio.h>
 int main()
@@ -170,7 +170,7 @@ int main()
         return 0;
 }
 ----------------------------------------------------------------------
-9. To Find Minimum
+#  9. To Find Minimum
 
 #include<stdio.h>
 int min(float x,float y);
@@ -205,7 +205,7 @@ int min(float x,float y)
         return result;
 }
 ----------------------------------------------------------------------
-10. Bio Data of Students
+#  10. Bio Data of Students
   
 #include<stdio.h>
 int main()
@@ -229,7 +229,7 @@ int main()
         return 0;
 }
 ----------------------------------------------------------------------
-11. Arithmetic Operators
+#  11. Arithmetic Operators
 
 #include<stdio.h>
 int main()
@@ -259,7 +259,7 @@ int main()
         return 0;
 }
 ----------------------------------------------------------------------
-12. Assignment Operators
+#  12. Assignment Operators
 
 #include<stdio.h>
 int main()
@@ -284,7 +284,7 @@ int main()
         return 0;
 }
 ----------------------------------------------------------------------
-13. Operator Precedence
+#  13. Operator Precedence
 
 #include<stdio.h>
  
@@ -316,7 +316,7 @@ int main()
         return 0;
 }
 ----------------------------------------------------------------------
-14. Average
+#  14. Average
 
 #include<stdio.h>
 float average();
@@ -345,7 +345,7 @@ int main()
   return a;
 }
 ----------------------------------------------------------------------
-15. F using #
+#  15. F using #
 
 #include<stdio.h>
 int main()
@@ -356,7 +356,7 @@ int main()
 
 }
 ----------------------------------------------------------------------
-16. FizzBuzz
+#  16. FizzBuzz
 
 #include<stdio.h>
 int main()
@@ -374,7 +374,7 @@ int main()
   return 0;
 }
 ----------------------------------------------------------------------
-17. Print Calculator
+#  17. Print Calculator
 
 #include<stdio.h>
 void main()
@@ -391,7 +391,7 @@ puts("\n\
 |___________|___|\n");
 }
 ----------------------------------------------------------------------
-18. Face
+#  18. Face
 
 #include<stdio.h>
 void main()
@@ -407,7 +407,7 @@ puts("|       |      |");
 puts("|_______|______|\n");
 }
 ----------------------------------------------------------------------
-19. Addition of 2x2 Matrix
+#  19. Addition of 2x2 Matrix
 
 #include<stdio.h>
 int main()
@@ -456,7 +456,7 @@ Sample of 2nd matrix: | e=5      f=6 |\n                      | f=7      h=8 |\n
         return 0;
 }
 ----------------------------------------------------------------------
-20. Multiplication of 2x2 Matrix
+#  20. Multiplication of 2x2 Matrix
 
 #include<stdio.h>
 int main()
@@ -493,7 +493,7 @@ Sample of 2nd matrix: | e=5      f=6 |\n                      | f=7      h=8 |\n
         return 0;
 }
 ----------------------------------------------------------------------
-21. FizzBuzz loop
+#  21. FizzBuzz loop
 
 #include<stdio.h>
 int main()
