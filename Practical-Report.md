@@ -762,6 +762,8 @@
 
 ## Output of the program
 
+    Enter The Integer: 17
+
     1
     2
     Fizz
