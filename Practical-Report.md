@@ -17,7 +17,7 @@
     puts("\nHello World\n");
     }
     
-##*Output of the program*##
+##*Output of the program*
 
     Hello World
 
@@ -43,7 +43,7 @@
     return 0;
     }
     
-##Output of the program##
+##Output of the program
 
     Enter The First Numder: 45.26
 
@@ -73,7 +73,7 @@
     return 0;
     }
 
-##Output of the program##
+##Output of the program
 
     73.00 x 1 = 73.000
     73.00 x 2 = 146.000
