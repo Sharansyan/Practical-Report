@@ -73,7 +73,7 @@
     return 0;
     }
 
-##Output of the program
+## Output of the program
 
     73.00 x 1 = 73.000
     73.00 x 2 = 146.000
@@ -107,7 +107,7 @@
     return 0;
     }
 
-##Output of the program##
+## Output of the program
 
     Enter The Radius of Circle: 4.5
 
@@ -138,7 +138,7 @@
     return 0;
     }
 
-##Output of the program##
+## Output of the program#
 
     Enter Height: 24
 
@@ -169,7 +169,7 @@
     return Interest;
     }
 
-##Output of the program##
+## Output of the program
 
     Enter The Principal Amount: 4000
 
@@ -212,7 +212,7 @@
     return result;
     }
 
-##Output of the program##
+## Output of the program
 
     Enter The First Value: 5
 
@@ -232,7 +232,7 @@
     return 0;
     }
 
-##Output of the program##
+## Output of the program
 
     a=100
     b=120
@@ -274,7 +274,7 @@
     return result;
     }
 
-##Output of the program##
+## Output of the program
 
     Enter The First Value: 5
 
@@ -307,7 +307,7 @@
     return 0;
     }
 
-##Output of the program##
+## Output of the program
 
     Enter The Number of Students: 3
 
@@ -359,7 +359,7 @@
     return 0;
     }
 
-##Output of the program##
+## Output of the program
 
     Enter The Value of x: 45
 
@@ -397,7 +397,7 @@
     return 0;
     }
 
-##Output of the program##
+## Output of the program
 
     Enter The Value of x: 45
     Answer is a = x 45.000
@@ -439,7 +439,7 @@
     return 0;
     }
 
-##Output of the program##
+## Output of the program
 
     Enter The Value of a: 45
     Enter The Value of b: 31
@@ -481,7 +481,7 @@
     return a;
     }
 
-##Output of the program##
+## Output of the program
 
     Enter The First Value: 45
     Enter The Second Value: 34
@@ -501,7 +501,19 @@
 
     }
 
-##Output of the program##
+## Output of the program
+
+    ########
+    #
+    #
+    #
+    #####
+    #
+    #
+    #
+    #
+    #
+    #
 ----------------------------------------------------------------
 #  16. Program to find FizzBuzz od a Integer
 
@@ -513,16 +525,21 @@
     printf("\nEnter the Interger: ");
     scanf("%d",&n);
 
-    if(n%3==0)
-    printf("\nFizz");
-    if(n%5==0)
-     printf("Buzz\n");
+    if(n%15==0)
+    printf("\nFizzBuzz");
+    else if(n%3==0)
+    printf("Fizz\n");
+    else if (n%5==0)
+    printf("\nBuzz");
     else
     printf("\n%d",n);
     return 0;
     }
 
-##Output of the program##
+## Output of the program
+
+    Enter the Interger: 171
+    Fizz
 ----------------------------------------------------
 #  17. Program of print a Calculator using puts function 
 
@@ -542,7 +559,17 @@
     |___________|___|\n");
     }
 
-##Output of the program##
+## Output of the program
+
+     _______________
+    | 1 | 2 | 3 |   |
+    |___|___|___|   |
+    | 4 | 5 | 6 | + |
+    |___|___|___|___|
+    | 7 | 8 | 9 | - |
+    |___|___|___|___|
+    |     0     | * |
+    |___________|___|
 -------------------------------------------------------
 #  18. Program to print a Face using puts function
 
@@ -561,7 +588,16 @@
     puts("|_______|______|\n");
     }
 
-##Output of the program##
+## Output of the program
+
+    |   XXXXXXXXX  |
+    |   ( ^   ^ )  |
+    |   ( 0   0 )  |
+    |    \  |  /   |
+    |     \ = /    |
+    |      \_/     |
+    |       |      |
+    |_______|______|
 ---------------------------------------------------------------------------------------------------
 #  19. Program of Addition of 2x2 Matrix
 
@@ -613,7 +649,32 @@
     return 0;
     }
 
-##Output of the program##
+## Output of the program
+
+    Sample of Ist matrix: | a=1      b=2 |
+                          | c=3      d=4 |
+
+    Sample of 2nd matrix: | e=5      f=6 |
+                          | f=7      h=8 |
+
+    Enter The Valve of a: 7
+    Enter The Valve of b: 5
+    Enter The Valve of c: 4
+    Enter The Valve of d: 0
+    Enter The Valve of e: 3
+    Enter The Valve of f: 5
+    Enter The Valve of g: 9
+    Enter The Valve of h: 1
+
+
+    Sum of Matrix(A+B) is: | 10.00     10.00 |
+                           | 13.00     1.00 |
+
+    Substraction of Matrix(A-B) is: | 4.00     0.00 |
+                                    | -5.00     -1.00 |
+
+    Substraction of Matrix(B-A) is: | -4.00     0.00 |
+                                    | 5.00     1.00 |
 ----------------------------------------------------------------------------------------------------------------------------------
 #  20. Program of Multiplication of 2x2 Matrix
 
@@ -653,7 +714,25 @@
     return 0;
     }
 
-##Output of the program##
+## Output of the program
+
+    Sample of Ist matrix: | a=1      b=2 |
+                          | c=3      d=4 |
+
+    Sample of 2nd matrix: | e=5      f=6 |
+                          | f=7      h=8 |
+
+    Enter The Valve of a: 7
+    Enter The Valve of b: 5
+    Enter The Valve of c: 4
+    Enter The Valve of d: 0
+    Enter The Valve of e: 3
+    Enter The Valve of f: 5
+    Enter The Valve of g: 9
+    Enter The Valve of h: 1
+
+    Multiplication of A,B is: | 66.00     40.00 |
+                              | 12.00     20.00 |
 -------------------------------------------------------------------------------------------------------------------------------
 #  21. Program of FizzBuzz in a continues loop
 
@@ -681,4 +760,22 @@
      return 0;
     }
 
-##Output of the program##
+## Output of the program
+
+    1
+    2
+    Fizz
+    4
+    Buzz
+    Fizz
+    7
+    8
+    Fizz
+    Buzz
+    11
+    Fizz
+    13
+    14
+    FizzBuzz
+    16
+    17
