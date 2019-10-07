@@ -6,7 +6,7 @@
 ![LOGO](https://blog.coachingkaro.org/wp-content/uploads/2019/07/logo.jpg)
 ## **DEPARTMENT OF CIVIL ENGENEERING**
 # **GURU NANAK DEV ENGENEERING COLLEGE,LUDHIANA**
---------------------------------------------------
+
 #  1. Program to print Hello World
 
 
@@ -20,7 +20,6 @@
 
     Hello World
 
----------------------------------------------------
 #  2. Program to find Sum
 
 
@@ -49,7 +48,7 @@
     Enter The Second Numder: 78.2648
 
     Answer is: = 123.525
--------------------------------------------------
+
 #  3. Program to print a Table
 
 
@@ -81,7 +80,7 @@
     73.00 x 5 = 365.000
     73.00 x 6 = 438.000
     73.00 x 7 = 511.000
-----------------------------------------------
+
 #  4. Program to find Area, Perieter, Volume of a Circle
 
 
@@ -113,7 +112,7 @@
     Perimeter of Circle is: = 28.29
     Area of Circle is: = 63.64
     Volume of Circle is: = 381.86
----------------------------------------------------
+
 #  5. Program to find Area, Perimeter of a Rectangle
 
 
@@ -145,7 +144,7 @@
 
     Area of Sqare (or) Rectangle: = 1440.000
     Perimeter of Sqare (or) Rectangle: = 168.000
--------------------------------------------------------------
+
 #  6. Program to find Interest
 
 
@@ -177,7 +176,7 @@
     Enter The Time (in months): 3
 
     Simple Intesest is: = 480.00
-------------------------------------------------------
+
 #  7. Program to find Maximum
 
 
@@ -218,7 +217,7 @@
     Enter The Second Value: 4
 
     Maximum value is: 5.00
--------------------------------------------------
+
 #  8. Program of Sum of two Constants
 
 
@@ -236,7 +235,7 @@
     a=100
     b=120
     Sum  of a and b is :220
---------------------------------------------------------
+
 #  9. Program To find Minimum
 
 
@@ -280,7 +279,7 @@
     Enter The SecondValue: 3
 
     Minimum value is: 3.00
------------------------------------------------
+
 #  10. Program to print Bio Data of Students
   
   
@@ -327,7 +326,7 @@
 
     Name = Rohan
     Roll No. = 1914090
------------------------------------------------------
+
 #  11. Program to use Arithmetic Operators
 
 
@@ -369,7 +368,7 @@
     x * y = 1395.000
     x/y = 1.452
     y/x = 0.689
---------------------------------------------------
+
 #  12. Program to use Assignment Operators
 
 
@@ -404,7 +403,7 @@
     Answer is a-x = 45.000
     Answer is a*x = 2025.000
     Answer is a/x= 45.000
---------------------------------------------------
+
 #  13. Program to use Operator Precedence
 
 
@@ -449,7 +448,7 @@
     (c+d)*a*b = 124155.000
      a*d/(c-b-a) = -55.086
     (b-c)*(a-d) = -338.000
-----------------------------------------------------
+
 #  14. Program to find Average
 
 
@@ -487,7 +486,7 @@
     Enter The Third Value: 18
 
     Average is: 32.33
----------------------------------------------------
+
 #  15. Program to print F by using #
 
 
@@ -513,7 +512,7 @@
     #
     #
     #
-----------------------------------------------------------------
+
 #  16. Program to find FizzBuzz od a Integer
 
 
@@ -539,7 +538,7 @@
 
     Enter the Interger: 171
     Fizz
-----------------------------------------------------
+
 #  17. Program of print a Calculator using puts function 
 
 
@@ -569,7 +568,7 @@
     |___|___|___|___|
     |     0     | * |
     |___________|___|
--------------------------------------------------------
+
 #  18. Program to print a Face using puts function
 
 
@@ -597,7 +596,7 @@
     |      \_/     |
     |       |      |
     |_______|______|
----------------------------------------------------------------------------------------------------
+
 #  19. Program of Addition of 2x2 Matrix
 
 
@@ -674,7 +673,7 @@
 
     Substraction of Matrix(B-A) is: | -4.00     0.00 |
                                     | 5.00     1.00 |
-----------------------------------------------------------------------------------------------------------------------------------
+
 #  20. Program of Multiplication of 2x2 Matrix
 
 
@@ -732,7 +731,7 @@
 
     Multiplication of A,B is: | 66.00     40.00 |
                               | 12.00     20.00 |
--------------------------------------------------------------------------------------------------------------------------------
+
 #  21. Program of FizzBuzz in a continues loop
 
 
@@ -780,3 +779,4 @@
     FizzBuzz
     16
     17
+    
