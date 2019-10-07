@@ -18,6 +18,9 @@
     }
     
 ##Output of the program##
+
+    Hello World
+
 ---------------------------------------------------
 #  2. Program to find Sum
 
@@ -41,6 +44,12 @@
     }
     
 ##Output of the program##
+
+    Enter The First Numder: 45.26
+
+    Enter The Second Numder: 78.2648
+
+    Answer is: = 123.525
 -------------------------------------------------
 #  3. Program to print a Table
 
@@ -65,6 +74,14 @@
     }
 
 ##Output of the program##
+
+    73.00 x 1 = 73.000
+    73.00 x 2 = 146.000
+    73.00 x 3 = 219.000
+    73.00 x 4 = 292.000
+    73.00 x 5 = 365.000
+    73.00 x 6 = 438.000
+    73.00 x 7 = 511.000
 ----------------------------------------------
 #  4. Program to find Area, Perieter, Volume of a Circle
 
@@ -91,6 +108,12 @@
     }
 
 ##Output of the program##
+
+    Enter The Radius of Circle: 4.5
+
+    Perimeter of Circle is: = 28.29
+    Area of Circle is: = 63.64
+    Volume of Circle is: = 381.86
 ---------------------------------------------------
 #  5. Program to find Area, Perimeter of a Rectangle
 
@@ -116,6 +139,13 @@
     }
 
 ##Output of the program##
+
+    Enter Height: 24
+
+    Enter Bredth: 60
+
+    Area of Sqare (or) Rectangle: = 1440.000
+    Perimeter of Sqare (or) Rectangle: = 168.000
 -------------------------------------------------------------
 #  6. Program to find Interest
 
@@ -140,6 +170,14 @@
     }
 
 ##Output of the program##
+
+    Enter The Principal Amount: 4000
+
+    Enter The Interest Rate: 4
+
+    Enter The Time (in months): 3
+
+    Simple Intesest is: = 480.00
 ------------------------------------------------------
 #  7. Program to find Maximum
 
@@ -175,6 +213,12 @@
     }
 
 ##Output of the program##
+
+    Enter The First Value: 5
+
+    Enter The Second Value: 4
+
+    Maximum value is: 5.00
 -------------------------------------------------
 #  8. Program of Sum of two Constants
 
@@ -189,6 +233,10 @@
     }
 
 ##Output of the program##
+
+    a=100
+    b=120
+    Sum  of a and b is :220
 --------------------------------------------------------
 #  9. Program To find Minimum
 
@@ -227,6 +275,12 @@
     }
 
 ##Output of the program##
+
+    Enter The First Value: 5
+
+    Enter The SecondValue: 3
+
+    Minimum value is: 3.00
 -----------------------------------------------
 #  10. Program to print Bio Data of Students
   
@@ -254,6 +308,26 @@
     }
 
 ##Output of the program##
+
+    Enter The Number of Students: 3
+
+    Enter The Name of The Student : Sharan
+    Enter The Roll No. of Students: 1914103
+
+    Name = Sharan
+    Roll No. = 1914103
+
+    Enter The Name of The Student : Sidhant 
+    Enter The Roll No. of Students: 1914109
+
+    Name = Sidhant
+    Roll No. = 1914109
+
+   Enter The Name of The Student : Rohan
+    Enter The Roll No. of Students: 1914090
+
+    Name = Rohan
+    Roll No. = 1914090
 -----------------------------------------------------
 #  11. Program to use Arithmetic Operators
 
@@ -286,6 +360,16 @@
     }
 
 ##Output of the program##
+
+    Enter The Value of x: 45
+
+    Enter The Value of y: 31
+    x + y = 76.000
+    x - y = 14.000
+    y - x = -14.000
+    x * y = 1395.000
+    x/y = 1.452
+    y/x = 0.689
 --------------------------------------------------
 #  12. Program to use Assignment Operators
 
@@ -314,6 +398,13 @@
     }
 
 ##Output of the program##
+
+    Enter The Value of x: 45
+    Answer is a = x 45.000
+    Answer is a+x = 90.000
+    Answer is a-x = 45.000
+    Answer is a*x = 2025.000
+    Answer is a/x= 45.000
 --------------------------------------------------
 #  13. Program to use Operator Precedence
 
@@ -343,12 +434,22 @@
     A = a*d/(c-b-a);
     printf("\n a*d/(c-b-a) = %.3f",A);
     A = (b-c)*(a-d);
-    printf(" (b-c)*(a-d) = %.3f",A);
+    printf("\n (b-c)*(a-d) = %.3f",A);
 
     return 0;
     }
 
 ##Output of the program##
+
+    Enter The Value of a: 45
+    Enter The Value of b: 31
+    Enter The Value of c: 18
+    Enter The Value of d: 71
+
+     (a+b)*(c+d) = 6764.000
+     (c+d)*a*b = 124155.000
+     a*d/(c-b-a) = -55.086
+     (b-c)*(a-d) = -338.000
 ----------------------------------------------------
 #  14. Program to find Average
 
@@ -381,6 +482,12 @@
     }
 
 ##Output of the program##
+
+    Enter The First Value: 45
+    Enter The Second Value: 34
+    Enter The Third Value: 18
+
+    Average is: 32.33
 ---------------------------------------------------
 #  15. Program to print F by using #
 
