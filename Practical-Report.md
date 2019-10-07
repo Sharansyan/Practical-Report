@@ -11,232 +11,228 @@
 #  1. Hello World
 
 
-     #include<stdio.h>
-     void main()
-     {
-     puts("\nHello World\n");
-     }
+    #include<stdio.h>
+    void main()
+    {
+    puts("\nHello World\n");
+    }
 ---------------------------------------------------------------------------
 #  2. To Find Sum
 
 
-      #include<stdio.h>
-      int main()
-      {  
-        float x,y,z;
+    #include<stdio.h>
+    int main()
+    {  
+    float x,y,z;
+    
+    printf("\nEnter The First Numder: ");
+    scanf("%f", &x);
+  
+    printf("\nEnter The Second Numder: ");
+    scanf("%f", &y);
 
-        printf("\nEnter The First Numder: ");
-        scanf("%f", &x);
+    z = x+y;
 
-        printf("\nEnter The Second Numder: ");
-        scanf("%f", &y);
+    printf("\nAnswer is: = %.3f", z);
 
-        z = x+y;
-
-        printf("\nAnswer is: = %.3f", z);
-
-        return 0;
-      }
+    return 0;
+    }
 ----------------------------------------------------------------------------
 #  3. Table
 
 
-      #include<stdio.h>
-      int main()
-        {
-        float x;
-        int n;
+    #include<stdio.h>
+    int main()
+    {
+    float x;
+    int n;
 
-        printf("\nEnter The Table: ");
-        scanf("%f",&x);
+    printf("\nEnter The Table: ");
+    scanf("%f",&x);
 
-        printf("\nEnter No. Times: ");
-        scanf("%d",&n);
+    printf("\nEnter No. Times: ");
+    scanf("%d",&n);
 
-        for(int y=1; y<=n; y++)
-        {
-        printf("\n%.2f x %d = %.3f",x,y,x*y);
-        }
-        return 0;
-        }
+    for(int y=1; y<=n; y++)
+     {
+    printf("\n%.2f x %d = %.3f",x,y,x*y);
+     }
+    return 0;
+    }
 -----------------------------------------------------------------------------
 #  4. Circle
 
 
-      #include<stdio.h>
-      int main()
-      {
-        float r,P,A,V;
-        float pi = 22/7.0;
+    #include<stdio.h>
+    int main()
+    {
+    float r,P,A,V;
+    float pi = 22/7.0;
 
-        printf("\nEnter The Radius of Circle: ");
-        scanf("%f",&r);
+    printf("\nEnter The Radius of Circle: ");
+    scanf("%f",&r);
 
-        P = 2*pi*r;
-        A = pi*r*r;
-        V = 4*pi*r*r*r/3.0;
+    P = 2*pi*r;
+    A = pi*r*r;
+    V = 4*pi*r*r*r/3.0;
 
-        printf("\nPerimeter of Circle is: = %.2f",P);
+    printf("\nPerimeter of Circle is: = %.2f",P);
+    printf("\nArea of Circle is: = %.2f",A);
 
-        printf("\nArea of Circle is: = %.2f",A);
+    printf("\nVolume of Circle is: = %.2f",V);
 
-        printf("\nVolume of Circle is: = %.2f",V);
-
-        return 0;
-      }
+    return 0;
+    }
 ---------------------------------------------------------------------------
 #  5. Square
 
 
-      #include<stdio.h>
-      int main()
-      {
-        float h,b,A,P;
+    #include<stdio.h>
+    int main()
+    {
+    float h,b,A,P;
 
-        printf("\nEnter Height: ");
-        scanf("%f",&h);
+    printf("\nEnter Height: ");
+    scanf("%f",&h);
 
-        printf("\nEnter Bredth: ");
-        scanf("%f",&b);
+    printf("\nEnter Bredth: ");
+    scanf("%f",&b);
 
-        A = h*b;
-        P = 2*(h+b);
+    A = h*b;
+    P = 2*(h+b);
 
-        printf("\nArea of Sqare (or) Rectangle: = %.3f",A);
-        printf("\nPerimeter of Sqare (or) Rectangle: = %.3f",P);
+    printf("\nArea of Sqare (or) Rectangle: = %.3f",A);
+    printf("\nPerimeter of Sqare (or) Rectangle: = %.3f",P);
 
-        return 0;
-      }
+    return 0;
+    }
 -------------------------------------------------------------------------
 #  6. To find Interest
 
 
-      #include<stdio.h>
-      int main()
-      {
-        float P,R,T,Interest;
-      {
-        printf("\nEnter The Principal Amount: ");
-        scanf("%f", &P);
+    #include<stdio.h>
+    int main()
+    {
+    float P,R,T,Interest;
+    printf("\nEnter The Principal Amount: ");
+    scanf("%f", &P);
 
-        printf("\nEnter The Interest Rate: ");
-        scanf("%f", &R);
+    printf("\nEnter The Interest Rate: ");
+    scanf("%f", &R);
         
-        printf("\nEnter The Time (in months): ");
-        scanf("%f", &T);
+    printf("\nEnter The Time (in months): ");
+    scanf("%f", &T);
 
-        Interest = P*T*R/100;
+    Interest = P*T*R/100;
         
-        printf("\nSimple Intesest is: = %.2f", Interest);
-
-      }
-        return Interest;
-      }
+    printf("\nSimple Intesest is: = %.2f", Interest);
+    return Interest;
+    }
 ----------------------------------------------------------------------
 #  7. To Find Maximum
 
 
-      #include<stdio.h>
-      int max(float x,float y);
-      int main()
-      {
-        float x,y,z;
+    #include<stdio.h>
+    int max(float x,float y);
+    int main()
+    {
+    float x,y,z;
 
-        printf("\nEnter The First Value: ");
-        scanf("%f",&x);
+    printf("\nEnter The First Value: ");
+    scanf("%f",&x);
 
-        printf("\nEnter The Second Value: ");
-        scanf("%f",&y);
+    printf("\nEnter The Second Value: ");
+    scanf("%f",&y);
 
-        z = max(x,y);
+    z = max(x,y);
 
-        printf("\nMaximum value is: %.2f\n", z);
+    printf("\nMaximum value is: %.2f\n", z);
 
-        return 0;
-      }
-        int max(float x,float y)
-      {
-        float result;
+    return 0;
+     }
+    int max(float x,float y)
+     {
+    float result;
 
-        if(x<y)
-                result = y;
-        else
-                result = x;
+    if(x<y)
+    result = y;
+    else
+    result = x;
 
-        return result;
-      }
+    return result;
+    }
 ----------------------------------------------------------------------
 #  8. Sum of Constants
 
 
-        #include<stdio.h>
-        int main()
+    #include<stdio.h>
+    int main()
     {
-        int a=100,b=120,c;
-        c = a+b;
-        printf("\na=100\nb=120\nSum  of a and b is :%d",c);
-        return 0;
+    int a=100,b=120,c;
+    c = a+b;
+    printf("\na=100\nb=120\nSum  of a and b is :%d",c);
+    return 0;
     }
 ----------------------------------------------------------------------
 #  9. To Find Minimum
 
 
-        #include<stdio.h>
-        int min(float x,float y);
-        int main()
+    #include<stdio.h>
+    int min(float x,float y);
+    int main()
 
     {
-        float x,y,z;
+    float x,y,z;
 
-        printf("\nEnter The First Value: ");
-        scanf("%f",&x);
+    printf("\nEnter The First Value: ");
+    scanf("%f",&x);
 
-        printf("\nEnter The SecondValue: ");
-        scanf("%f",&y);
+    printf("\nEnter The SecondValue: ");
+    scanf("%f",&y);
 
-        z = min(x,y);
+    z = min(x,y);
 
-        printf("\nMinimum value is: %.2f\n", z);
+    printf("\nMinimum value is: %.2f\n", z);
 
-        return 0;
-    }
+    return 0;
+     }
+ 
+    int min(float x,float y)
 
-     int min(float x,float y)
+     {
+    float result;
 
-    {
-        float result;
+    if(x<y)
+    result = x;
+    else
+    result = y;
 
-        if(x<y)
-                result = x;
-        else
-                result = y;
-
-        return result;
+    return result;
     }
 ----------------------------------------------------------------------
 #  10. Bio Data of Students
   
   
-      #include<stdio.h>
-      int main()
+    #include<stdio.h>
+    int main()
     {
-        int n,R;
-        char name[25];
+    int n,R;
+    char name[25];
 
-        printf("\nEnter The Number of Students: ");
-        scanf("%d",&n);
+    printf("\nEnter The Number of Students: ");
+    scanf("%d",&n);
 
-        for(int i=1; i<=n;i++)
-    {
-        printf("\nEnter The Name of The Student : ");
-        scanf("%s", name);
+    for(int i=1; i<=n;i++)
+     {
+    printf("\nEnter The Name of The Student : ");
+    scanf("%s", name);
 
-        printf("Enter The Roll No. of Students: ");
-        scanf("%d",&R);
+    printf("Enter The Roll No. of Students: ");
+    scanf("%d",&R);
 
-        printf("\nName = %s\nRoll No. = %d\n", name,R);
-    }
-        return 0;
+    printf("\nName = %s\nRoll No. = %d\n", name,R);
+     }
+    return 0;
     }
 ----------------------------------------------------------------------
 #  11. Arithmetic Operators
@@ -245,29 +241,28 @@
     #include<stdio.h>
     int main()
     {
+    float x,y,a;
 
-        float x,y,a;
+    printf("\nEnter The Value of x: ");
+    scanf("%f",&x);
 
-        printf("\nEnter The Value of x: ");
-        scanf("%f",&x);
+    printf("\nEnter The Value of y: ");
+    scanf("%f",&y);
 
-        printf("\nEnter The Value of y: ");
-        scanf("%f",&y);
+    a = x+y;
+    printf("x + y = %.3f\n",a);
+    a = x-y;
+    printf("x - y = %.3f\n",a);
+    a = y-x;
+    printf("y - x = %.3f\n",a);
+    a = x*y;
+    printf("x * y = %.3f\n",a);
+    a = x/y;
+    printf("x/y = %.3f\n",a);
+    a = y/x;
+    printf("y/x = %.3f\n",a);
 
-        a = x+y;
-        printf("x + y = %.3f\n",a);
-        a = x-y;
-        printf("x - y = %.3f\n",a);
-        a = y-x;
-        printf("y - x = %.3f\n",a);
-        a = x*y;
-        printf("x * y = %.3f\n",a);
-        a = x/y;
-        printf("x/y = %.3f\n",a);
-        a = y/x;
-        printf("y/x = %.3f\n",a);
-
-        return 0;
+    return 0;
     }
 ----------------------------------------------------------------------
 #  12. Assignment Operators
@@ -277,23 +272,23 @@
     int main()
     {
 
-        float x,a;
+    float x,a;
 
-        printf("\nEnter The Value of x: ");
-        scanf("%f",&x);
+    printf("\nEnter The Value of x: ");
+    scanf("%f",&x);
 
-        a = x;
-        printf("Answer is a = x %.3f\n",a);
-        a +=x; //answer is a+x
-        printf("Answer is a+x = %.3f\n",a);
-        a -=x; //answer is a-x
-        printf("Answer is a-x = %.3f\n",a);
-        a *=x; //answer is a*x
-        printf("Answer is a*x = %.3f\n",a);
-        a /=x; //answer is a/x
-        printf("Answer is a/x= %.3f\n",a);
+    a = x;
+    printf("Answer is a = x %.3f\n",a);
+    a +=x; //answer is a+x
+    printf("Answer is a+x = %.3f\n",a);
+    a -=x; //answer is a-x
+    printf("Answer is a-x = %.3f\n",a);
+    a *=x; //answer is a*x
+    printf("Answer is a*x = %.3f\n",a);
+    a /=x; //answer is a/x
+    printf("Answer is a/x= %.3f\n",a);
 
-        return 0;
+    return 0;
     }
 ----------------------------------------------------------------------
 #  13. Operator Precedence
@@ -303,30 +298,30 @@
  
     int main()
     {
-        float a,b,c,d,A;
+    float a,b,c,d,A;
 
-        printf("\nEnter The Value of a: ");
-        scanf("%f",&a);
+    printf("\nEnter The Value of a: ");
+    scanf("%f",&a);
 
-        printf("Enter The Value of b: ");
-        scanf("%f",&b);
+    printf("Enter The Value of b: ");
+    scanf("%f",&b);
 
-        printf("Enter The Value of c: ");
-        scanf("%f",&c);
+    printf("Enter The Value of c: ");
+    scanf("%f",&c);
 
-        printf("Enter The Value of d: ");
-        scanf("%f",&d);
+    printf("Enter The Value of d: ");
+    scanf("%f",&d);
 
-        A = (a+b)*(c+d);
-        printf("\n (a+b)*(c+d) = %.3f",A);
-        A = (c+d)*a*b;
-        printf("\n (c+d)*a*b = %.3f",A);
-        A = a*d/(c-b-a);
-        printf("\n a*d/(c-b-a) = %.3f",A);
-        A = (b-c)*(a-d);
-        printf(" (b-c)*(a-d) = %.3f",A);
+    A = (a+b)*(c+d);
+    printf("\n (a+b)*(c+d) = %.3f",A);
+    A = (c+d)*a*b;
+    printf("\n (c+d)*a*b = %.3f",A);
+    A = a*d/(c-b-a);
+    printf("\n a*d/(c-b-a) = %.3f",A);
+    A = (b-c)*(a-d);
+    printf(" (b-c)*(a-d) = %.3f",A);
 
-        return 0;
+    return 0;
     }
 ----------------------------------------------------------------------
 #  14. Average
@@ -339,10 +334,10 @@
     {
     printf("\nAverage is: %.2f",average());
     return 0;
-    }
+     }
 
     float average()
-    {
+     {
     float x,y,z,s,a;
 
     printf("\nEnter The First Value: ");
@@ -366,8 +361,8 @@
     int main()
     {
 
-        printf("\n########\n#\n#\n#\n#####\n#\n#\n#\n#\n#\n#\n");
-        return 0;
+    printf("\n########\n#\n#\n#\n#####\n#\n#\n#\n#\n#\n#\n");
+    return 0;
 
     }
 ----------------------------------------------------------------------
@@ -437,80 +432,80 @@
     printf("\nSample of Ist matrix: | a=1      b=2 |\n                      | c=3      d=4 |\n\n\
     Sample of 2nd matrix: | e=5      f=6 |\n                      | f=7      h=8 |\n\n");
 
-        printf("Enter The Valve of a: ");
-        scanf("%f",&a);
-        printf("Enter The Valve of b: ");
-        scanf("%f",&b);
-        printf("Enter The Valve of c: ");
-        scanf("%f",&c);
-        printf("Enter The Valve of d: ");
-        scanf("%f",&d);
-        printf("Enter The Valve of e: ");
-        scanf("%f",&e);
-        printf("Enter The Valve of f: ");
-        scanf("%f",&f);
-        printf("Enter The Valve of g: ");
-        scanf("%f",&g);
-        printf("Enter The Valve of h: ");
-        scanf("%f",&h); 
+    printf("Enter The Valve of a: ");
+    scanf("%f",&a);
+    printf("Enter The Valve of b: ");
+    scanf("%f",&b);
+    printf("Enter The Valve of c: ");
+    scanf("%f",&c);
+    printf("Enter The Valve of d: ");
+    scanf("%f",&d);
+    printf("Enter The Valve of e: ");
+    scanf("%f",&e);
+    printf("Enter The Valve of f: ");
+    scanf("%f",&f);
+    printf("Enter The Valve of g: ");
+    scanf("%f",&g);
+    printf("Enter The Valve of h: ");
+    scanf("%f",&h); 
         
-        i = a+e;
-        j = b+f;
-        k = c+g;
-        l = d+h;
-        printf("\n\nSum of Matrix(A+B) is: | %.2f     %.2f |\n                       | %.2f     %.2f |",i,j,k,l);
+    i = a+e;
+    j = b+f;
+    k = c+g;
+    l = d+h;
+    printf("\n\nSum of Matrix(A+B) is: | %.2f     %.2f |\n                       | %.2f     %.2f |",i,j,k,l);
         
-        i = a-e;
-        j = b-f;
-        k = c-g;
-        l = d-h;
-        printf("\n\nSubstraction of Matrix(A-B) is: | %.2f     %.2f |\n                                | %.2f     %.2f |",i,j,k,l);
+    i = a-e;
+    j = b-f;
+    k = c-g;
+    l = d-h;
+    printf("\n\nSubstraction of Matrix(A-B) is: | %.2f     %.2f |\n                                | %.2f     %.2f |",i,j,k,l);
         
-        i = e-a;
-        j = f-b;
-        k = g-c;
-        l = h-d;
-        printf("\n\nSubstraction of Matrix(B-A) is: | %.2f     %.2f |\n                                | %.2f     %.2f |",i,j,k,l);
-        
-        return 0;
-}
+    i = e-a;
+    j = f-b;
+    k = g-c;
+    l = h-d;
+    printf("\n\nSubstraction of Matrix(B-A) is: | %.2f     %.2f |\n                                | %.2f     %.2f |",i,j,k,l);
+         
+    return 0;
+    }
 ----------------------------------------------------------------------
 #  20. Multiplication of 2x2 Matrix
 
 
-   #include<stdio.h>
-   int main()
-   {
-   float a,b,c,d,e,f,g,h,i,j,k,l;
+    #include<stdio.h>
+    int main()
+    {
+    float a,b,c,d,e,f,g,h,i,j,k,l;
 
-   printf("\nSample of Ist matrix: | a=1      b=2 |\n                      | c=3      d=4 |\n\n\
-   Sample of 2nd matrix: | e=5      f=6 |\n                      | f=7      h=8 |\n\n");
+    printf("\nSample of Ist matrix: | a=1      b=2 |\n                      | c=3      d=4 |\n\n\
+    Sample of 2nd matrix: | e=5      f=6 |\n                      | f=7      h=8 |\n\n");
+ 
+    printf("Enter The Valve of a: ");
+    scanf("%f",&a);
+    printf("Enter The Valve of b: ");
+    scanf("%f",&b);
+    printf("Enter The Valve of c: ");
+    scanf("%f",&c);
+    printf("Enter The Valve of d: ");
+    scanf("%f",&d);
+    printf("Enter The Valve of e: ");
+    scanf("%f",&e);
+    printf("Enter The Valve of f: ");
+    scanf("%f",&f);
+    printf("Enter The Valve of g: ");
+    scanf("%f",&g);
+    printf("Enter The Valve of h: ");
+    scanf("%f",&h);
 
-        printf("Enter The Valve of a: ");
-        scanf("%f",&a);
-        printf("Enter The Valve of b: ");
-        scanf("%f",&b);
-        printf("Enter The Valve of c: ");
-        scanf("%f",&c);
-        printf("Enter The Valve of d: ");
-        scanf("%f",&d);
-        printf("Enter The Valve of e: ");
-        scanf("%f",&e);
-        printf("Enter The Valve of f: ");
-        scanf("%f",&f);
-        printf("Enter The Valve of g: ");
-        scanf("%f",&g);
-        printf("Enter The Valve of h: ");
-        scanf("%f",&h);
+    i=(a*e)+(b*g);
+    j=(a*f)+(b*h);
+    k=(c*e)+(d*g);
+    l=(c*f)+(d*h);
 
-        i=(a*e)+(b*g);
-        j=(a*f)+(b*h);
-        k=(c*e)+(d*g);
-        l=(c*f)+(d*h);
+    printf("\nMultiplication of A,B is: | %.2f     %.2f |\n                          | %.2f     %.2f |",i,j,k,l);
 
-        printf("\nMultiplication of A,B is: | %.2f     %.2f |\n                          | %.2f     %.2f |",i,j,k,l);
-
-        return 0;
+    return 0;
     }
 ----------------------------------------------------------------------
 #  21. FizzBuzz loop
@@ -519,23 +514,22 @@
     #include<stdio.h>
     int main()
     {
-        int n,x;
-        printf("\nEnter The Integer: ");
-        scanf("%d",&n);
-        printf("\n");
+    int n,x;
+    printf("\nEnter The Integer: ");
+    scanf("%d",&n);
+    printf("\n");
 
     {
-        for(x=1;x<=n;x++)
-        if(x%15==0)
-        printf("FizzBuzz\n");
-        else if(x%3==0)
-        printf("Fizz\n");
-        else if(x%5==0)
-        printf("Buzz\n");
-        else
-        printf("%d\n",x);
-     }
-
-        return 0;
+    for(x=1;x<=n;x++)
+    if(x%15==0)
+    printf("FizzBuzz\n");
+    else if(x%3==0)
+    printf("Fizz\n");
+    else if(x%5==0)
+    printf("Buzz\n");
+    else
+    printf("%d\n",x);
     }
-----------------------------------------------------------------------
+
+     return 0;
+    }
