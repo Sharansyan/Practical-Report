@@ -780,3 +780,28 @@
     16
     17
     
+# 22. Program to find Sum by using function
+
+
+      #include<stdio.h>
+      int ans(float a, float b);
+      int main()
+      {
+          float a, b, ans;
+          printf("\nEnter The Value of a: ");
+          scanf("%f",&a);
+          printf("Enter The Value of b: ");
+          scanf("%f",&b);
+          ans = (a*b);
+          printf("Answer is: %.2f", ans);
+          return 0;
+      }
+      int ans(float a, float b)
+         {
+          return a*b;
+         }
+## Output of the program
+
+      Enter The Value of a: 4
+      Enter The Value of b: 5
+      Answer is: 20.00
