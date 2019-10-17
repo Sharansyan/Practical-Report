@@ -800,8 +800,45 @@
          {
           return a*b;
          }
+         
 ## Output of the program
 
       Enter The Value of a: 4
       Enter The Value of b: 5
       Answer is: 20.00
+      
+# 23. Program to print a Pyramid
+
+     #include<stdio.h>
+     int main()
+     {
+     int i,j,n;
+     printf("\nEnter number of Rows: ");
+     scanf("%d",&n);
+     printf("\n");
+     
+     for(i=1; i<=n; i++)
+     {
+         for(j=1; j<=2*n-1; j++)
+         {
+         if(j>=n-(i-1) && j<=n+(i-1))
+         printf("*");
+         else
+         printf(" ");
+         }
+         printf("\n");
+         }
+         return 0;
+     }
+
+## Output of the program
+
+     Enter number of Rows: 6
+     
+          *  
+         ***    
+        *****   
+       *******  
+      ********* 
+     ***********
+     
