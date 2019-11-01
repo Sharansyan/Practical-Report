@@ -885,3 +885,49 @@ First Case
     Search is Unsucessfull 2 Element is not present in the array
     
     
+# 25. Program of lenear search with desirable values
+
+    #include<stdio.h>
+    int main()
+    {
+
+    int array[100],search,i,n;
+    printf("\nEnter the Number of elements in array: ");
+    scanf("%d",&n);
+    printf("\n");
+
+      for(i=1;i<=n;i++)
+      {  printf("Enter [%d] element: ",i);
+         scanf("%d",&array[i]);  }
+      
+    printf("\nEnter a number to search: ");
+    scanf("%d",&search);
+
+       for(i=0;i<=n;i++)
+       {
+          if(array[i]==search)         //if element is found
+          {  printf("\n%d is present at location %d\n",search,i);
+             break;   }
+          else if(i>=n)
+          {  printf("\n%d is not present in the array\n",search);  }
+
+       }
+
+    return 0;
+    }
+    
+## Output of the Program
+
+    Enter the Number of elements in array: 5
+
+    Enter [1] element: 1
+    Enter [2] element: 2
+    Enter [3] element: 3
+    Enter [4] element: 4
+    Enter [5] element: 5
+
+    Enter a number to search: 8
+
+    8 is not present in the array
+    
+# 26. 
