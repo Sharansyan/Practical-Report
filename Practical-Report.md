@@ -885,7 +885,7 @@ First Case
     Search is Unsucessfull 2 Element is not present in the array
     
     
-# 25. Program of lenear search with desirable values
+# 25. Program of linear search with desirable values
 
     #include<stdio.h>
     int main()
@@ -930,4 +930,62 @@ First Case
 
     8 is not present in the array
     
-# 26. 
+# 26. Program of Binary search with desirable values
+
+    #include<stdio.h>
+    int main()
+    {
+    int n,i,s,f,m,l,a[100];  //a= array, n= size of array, s= element to be searched
+                             //f= first element position, l= last element position
+                             //m= mid element position
+    printf("\nEnter the size of array: ");
+    scanf("%d",&n);
+    printf("\n");
+
+
+    for(i=1;i<=n;i++)
+    {  printf("Enter [%d] element: ",i);
+       scanf("%d",&a[i]);   }
+
+    printf("\nEnter the element you wants to search: ");
+    scanf("%d",&s);
+
+    f=0;
+    l=n-1;
+    m=(f+l)/2;
+
+
+    while(f<=l)
+    {
+         if (a[m]<s)
+          {  f=m+1;  }
+          else if(a[m]==s)
+          {  printf("Location of given %d is %d \n",s,m);
+             break;  }
+          else
+          {  l=m-1;  }
+          m=(f+l)/2;              
+    }
+
+    if(f>l)
+    printf("%d is not found in the array\n",s);
+  
+    return 0;
+    }
+    
+## output of the Program
+
+    Enter the size of array: 7
+      
+    Enter [1] element: 5
+    Enter [2] element: 2
+    Enter [3] element: 8
+    Enter [4] element: 49
+    Enter [5] element: 657
+    Enter [6] element: 32
+    Enter [7] element: 0
+  
+    Enter the element you wants to search: 5
+    Location of given 5 is 1 
+    
+# 27. 
