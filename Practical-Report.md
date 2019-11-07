@@ -4,8 +4,8 @@
 ##   BRANCH-*CIVIL*
 ##   SECTION-*CE(B2)*
 ![LOGO](https://blog.coachingkaro.org/wp-content/uploads/2019/07/logo.jpg)
-## **DEPARTMENT OF CIVIL ENGENEERING**
-# **GURU NANAK DEV ENGENEERING COLLEGE,LUDHIANA**
+## **DEPARTMENT OF CIVIL ENGINEERING**
+# **GURU NANAK DEV ENGINEEERING COLLEGE,LUDHIANA**
 
 #  1. Program to print Hello World
 
@@ -1023,4 +1023,4 @@ Enter the Number: 8
       Enter the Number: 8
       8 is not a Prime Number
       
-# 28. Program 
+
