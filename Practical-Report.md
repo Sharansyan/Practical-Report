@@ -958,7 +958,13 @@ First Case
     while(f<=l)
     {
          if (a[m]<s)
-          {  f=m+1;  }
+  Enter the Number: 7
+7 is not a Prime Number|>
+|>./a.out 
+
+Enter the Number: 8
+8 is not a Prime Number|>
+        {  f=m+1;  }
           else if(a[m]==s)
           {  printf("Location of given %d is %d \n",s,m);
              break;  }
@@ -988,4 +994,33 @@ First Case
     Enter the element you wants to search: 5
     Location of given 5 is 1 
     
-# 27. 
+# 27. Program to find Prime number
+
+      #include<stdio.h>
+      int main()
+      { 
+      int a;
+      printf("\nEnter the Number: ");
+      scanf("%d",&a);
+
+       for(int x=1;x<a;x++)
+       { 
+         if(a%x!=0)
+         {  printf("%d is a Prime Number",a);
+            break;  }
+         else
+         {  printf("%d is not a Prime Number",a);
+            break;  }
+        }
+      return 0;
+      }
+
+## Output of the program
+
+      Enter the Number: 7
+      7 is not a Prime Number
+
+      Enter the Number: 8
+      8 is not a Prime Number
+      
+# 28. Program 
