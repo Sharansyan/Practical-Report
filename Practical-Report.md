@@ -1096,8 +1096,109 @@ Enter the Number: 8
     
 # 30 Program of Volume(Different Shapes)
 
+    #include<stdio.h>
+    int main()
+    {
+    int a;                             //a = Code of the shape     
+    float sphere,Sr,pi=22.0/7.0;       //Cr = radius of circle, sphere = volume (Sphere)
+    float Cs,cube;                     //Cs = side, cude = volumre (cube)
+    float Rl,Rb,Rh,rectangle;          //Rl = length, Rb = breadth, Rh = Heigth, rectangle = volume (Rectangle)
+    float Cr,Ch,cylinder;              //Cr = Radius, Ch = Height, cylinder = Volume (cylinder)
+    float CoR,CoH,cone;                //CoR = Radius, CoH = Height, cone = Volume (Cone)
 
+    printf("\n\nPress 1 (Sphere) \nPress 2 (Cube) \nPress 3 (Rectangle) \n\
+    Press 4 (Cylinder) \nPress 5 (Cone) \n\nEnter the shape,you wants to find the volume: ");
+    scanf("%d", &a);
+
+    switch(a)
+    {
+    case 1:
+      if(a==1)
+      { printf("\nEnter the radius of Sphere: ");
+      scanf("%f", &Sr);
+      sphere = 4*pi*Sr*Sr*Sr/3;
+      printf("Volume of Shpere = %.4f", sphere);
+      break;  }
+
+    case 2:
+      if(a==2)
+      { printf("\nEnter the Side of Cube: ");
+      scanf("%f", &Cs);
+      cube = Cs*Cs*Cs;
+      printf("Volume of Cube = %.4f", cube);
+      break;  }
+        
+    case 3:
+      if(a==3)
+      {  printf("\nEnter the length of Rectangle: ");
+      scanf("%f", &Rl);
+      printf("Enter the breadth of Rectangle: ");
+      scanf("%f", &Rb);
+      printf("Enter the Height of Rectangle: ");
+      scanf("%f", &Rh);
+      rectangle = Rl*Rb*Rh;
+      printf("Volume of Rectangle = %.4f", rectangle);
+      break;  }
+        
+    case 4:
+      if(a==4)
+      {  printf("\nEnter the Radius of Cylinder: ");
+      scanf("%f", &Cr);
+      printf("Enter the Height of Cylinder: ");
+      scanf("%f", &Ch);
+      cylinder = pi*Cr*Cr*Ch;
+      printf("Volume of Cylinder = %.4f", cylinder);
+      break;  }
+        
+    case 5:
+      if(a==5)
+      {  printf("\nEnter the Radius of Cone: ");
+      scanf("%f", &CoR);
+      printf("Enter the Height of Cone: ");
+      scanf("%f", &CoH);
+      cone = pi*CoR*CoR*CoH/3;
+      printf("Volume of Cone = %.4f", cone);
+      break;  }
+        
+    } 
+    return 0;
+    
+    } 
 
 ## output of the Program 
 
+    Press 1 (Sphere) 
+    Press 2 (Cube) 
+    Press 3 (Rectangle) 
+    Press 4 (Cylinder) 
+    Press 5 (Cone)                                                            
 
+    Enter the shape,you wants to find the volume: 1
+    Enter the radius of Sphere: 10
+    Volume of Shpere = 4190.4761 
+
+    Enter the shape,you wants to find the volume: 2
+    Enter the Side of Cube: 17.5   
+    Volume of Cube = 5359.3750
+
+    Enter the shape,you wants to find the volume: 3
+    Enter the length of Rectangle: 11
+    Enter the breadth of Rectangle: 12
+    Enter the Height of Rectangle: 13
+    Volume of Rectangle = 1716.0000
+
+    Enter the shape,you wants to find the volume: 4
+    Enter the Radius of Cylinder: 7
+    Enter the Height of Cylinder: 8
+    Volume of Cylinder = 1232.0000
+
+    Enter the shape,you wants to find the volume: 5
+    Enter the Radius of Cone: 2
+    Enter the Height of Cone: 1.5
+    Volume of Cone = 6.2857
+
+# 31. Program of
+
+
+
+## Output of the Program 
