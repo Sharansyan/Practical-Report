@@ -1023,4 +1023,75 @@ Enter the Number: 8
       Enter the Number: 8
       8 is not a Prime Number
       
+# 28. Program of days of the week 
 
+     #include<stdio.h>
+     int main()
+     {
+
+     int x;
+     printf("\n\nEnter the day Number: ");
+     scanf("%d", &x);
+
+     switch(x)
+     {
+       case 1:
+       if(x==1)
+       {  printf("\nSunday");  }
+       case 2:
+       if(x==2)
+       {  printf("\nMonday");  }
+       case 3:
+       if(x==3)
+       {  printf("\nTuesday");  }
+       case 4:
+       if(x==4)
+       {  printf("\nWednesday");  }
+       case 5:
+       if(x==5)
+       {  printf("\nThursday");  }
+       case 6:
+       if(x==6)
+       {  printf("\nFriday");  }
+           case 7:
+       if(x==7)
+       {  printf("\nSaturday");  
+     } 
+
+     return 0;
+     }
+     
+ ## Output of the Program
+ 
+    Enter the day Number: 3
+
+    Tuesday
+    
+# 29 Program of while loop
+
+    #include<stdio.h>
+    int main()
+    {   
+    int x=1;
+    
+    while(x<=10)
+    {  printf("%d\n",x);
+       x++;  }
+    
+    return 0;
+    }
+    
+## Output of the Program
+
+    1
+    2
+    3
+    4
+    5
+    6
+    7
+    8
+    9
+    10
+    
+# 30 Program of 
