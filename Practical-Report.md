@@ -1197,8 +1197,19 @@ Enter the Number: 8
     Enter the Height of Cone: 1.5
     Volume of Cone = 6.2857
 
-# 31. Program of
+# 31. Program to find Sum of A.P series
 
-
+    
 
 ## Output of the Program 
+
+    Enter N of the series: 10
+    Enter first or last term of the series: 2
+
+    Enter 1 for Second term, Enter 2 for difference
+
+    Enter 1 or 2: 1
+
+    Enter the second term: 6
+
+    Sum of given series = 200.00
