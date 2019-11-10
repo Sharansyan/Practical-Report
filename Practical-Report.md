@@ -1199,8 +1199,40 @@ Enter the Number: 8
 
 # 31. Program to find Sum of A.P series
 
-    
+    #include<stdio.h>
+    int main()
+    {   
+    int N,x;                //N = length of the series, x = second term or difference
+    float a1,a2,d,S;        //a1 = first or last term
+                            //a2 = second term, d = differenc
+                            //S = sum of the terms
+    printf("\n\nEnter N of the series: ");
+    scanf("%d", &N);
+    printf("Enter first or last term of the series: ");
+    scanf("%f", &a1);
 
+    printf("\nEnter 1 for Second term, Enter 2 for difference\n\nEnter 1 or 2: ");
+    scanf("%d", &x);
+
+
+    if(x==1)
+      {  printf("\nEnter the second term: ");
+         scanf("%f", &a2);
+         d = a2-a1;
+         S = N*(2*a1 + (N-1)*d) /2;
+         printf("\nSum of given series = %.2f", S);  }
+
+    else if(x==2)
+      {  printf("\nEnter the Difference: ");
+         scanf("%f", &d);
+         S = N*(2*a1 + (N-1)*d) /2;
+         printf("\nSum of given series = %.2f", S);  }
+
+    else
+      printf("\nEnter a valid input(1 or 2)");
+    return 0;
+    }
+    
 ## Output of the Program 
 
     Enter N of the series: 10
