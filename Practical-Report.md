@@ -3,7 +3,6 @@
 # **PROGRAMMING FOR PROGRAM SOLVING ESC-18105**
 ## **NAME - SHARANJIT SINGH**
 ## **ROLL NO - 1914103**
-## **BRANCH - CIVIL ENGINEERING**
 ## **SECTION - CE(B2)**
 ----------------------------------------------
 
@@ -1422,3 +1421,50 @@ return 0;
 
      146.00 * 21.00 = 3066.00
  
+### 37. Program to take 5 values from the user and store them in an array and Print the elements
+stored in the array
+
+```C
+     #include<stdio.h>
+     int main()
+     {
+       int x,array[5];
+       printf("\n");
+       
+       for(x=1;x<=5;x++)
+       {  printf("Enter [%d] element: ", x);
+          scanf("%d", &array[x]);  }
+          
+       for(x=1;x<=5;x++)
+       {  printf("\nElement [%d] = %d", x, array[x]);  }
+
+     return 0;
+     }
+```
+
+### Output of the Program
+
+     Enter [1] element: 4
+     Enter [2] element: 5
+     Enter [3] element: 6
+     Enter [4] element: 9
+     Enter [5] element: 2
+
+     Element [1] = 4
+     Element [2] = 5
+     Element [3] = 6
+     Element [4] = 9
+     Element [5] = 2
+
+### 38. Program of 
+
+```C
+
+```
+
+### Output of the Program
+
+
+
+
+
