@@ -42,17 +42,17 @@
          return 0;
     }
 ```  
-## Output of the program
-```
+#### Output of the program
+```C
     Enter The First Numder: 45.26
 
     Enter The Second Numder: 78.2648
 
     Answer is: = 123.525
 ```
-#  3. Program to print a Table
+###  3. Program to print a Table
 
-```
+```C
     #include<stdio.h>
     int main()
     {
@@ -72,7 +72,7 @@
          return 0;
     }
 ```
-## Output of the program
+#### Output of the program
 ```
     73.00 x 1 = 73.000
     73.00 x 2 = 146.000
@@ -82,7 +82,7 @@
     73.00 x 6 = 438.000
     73.00 x 7 = 511.000
 ```
-#  4. Program to find Area, Perieter, Volume of a Circle
+###  4. Program to find Area, Perieter, Volume of a Circle
 
 ```
     #include<stdio.h>
@@ -106,7 +106,7 @@
          return 0;
      }
 ```
-## Output of the program
+#### Output of the program
 ```
     Enter The Radius of Circle: 4.5
 
@@ -114,7 +114,7 @@
     Area of Circle is: = 63.64
     Volume of Circle is: = 381.86
 ```
-#  5. Program to find Area, Perimeter of a Rectangle
+###  5. Program to find Area, Perimeter of a Rectangle
 
 ```
     #include<stdio.h>
@@ -137,7 +137,7 @@
          return 0;
     }
 ```
-## Output of the program#
+#### Output of the program#
 ```
     Enter Height: 24
 
@@ -146,7 +146,7 @@
     Area of Sqare (or) Rectangle: = 1440.000
     Perimeter of Sqare (or) Rectangle: = 168.000
 ```
-#  6. Program to find Interest
+###  6. Program to find Interest
 
 ```
     #include<stdio.h>
@@ -168,7 +168,7 @@
          return Interest;
     }
 ```
-## Output of the program
+#### Output of the program
 ```
     Enter The Principal Amount: 4000
 
@@ -178,7 +178,7 @@
 
     Simple Intesest is: = 480.00
 ```
-#  7. Program to find Maximum
+###  7. Program to find Maximum
 
 ```
     #include<stdio.h>
@@ -211,7 +211,7 @@
          return result;
     }
 ```
-## Output of the program
+#### Output of the program
 ```
     Enter The First Value: 5
 
@@ -219,7 +219,7 @@
 
     Maximum value is: 5.00
 ```
-#  8. Program of Sum of two Constants
+###  8. Program of Sum of two Constants
 
 ```
     #include<stdio.h>
@@ -231,13 +231,13 @@
          return 0;
     }
 ```
-## Output of the program
+#### Output of the program
 
     a=100
     b=120
     Sum  of a and b is :220
 
-#  9. Program To find Minimum
+###  9. Program To find Minimum
 
 ```
     #include<stdio.h>
@@ -273,7 +273,7 @@
          return result;
     }
 ```
-## Output of the program
+#### Output of the program
 ```
     Enter The First Value: 5
 
@@ -281,7 +281,7 @@
 
     Minimum value is: 3.00
 ```
-#  10. Program to print Bio Data of Students
+###  10. Program to print Bio Data of Students
   
   ```
     #include<stdio.h>
@@ -306,7 +306,7 @@
     return 0;
     }
 ```
-## Output of the program
+#### Output of the program
 ```
     Enter The Number of Students: 3
 
@@ -328,7 +328,7 @@
     Name = Rohan
     Roll No. = 1914090
 ```
-#  11. Program to use Arithmetic Operators
+###  11. Program to use Arithmetic Operators
 
 ```
     #include<stdio.h>
@@ -358,7 +358,7 @@
          return 0;
     }
 ```
-## Output of the program
+#### Output of the program
 ```
     Enter The Value of x: 45
 
@@ -370,7 +370,7 @@
     x/y = 1.452
     y/x = 0.689
 ```
-#  12. Program to use Assignment Operators
+###  12. Program to use Assignment Operators
 
 ```
     #include<stdio.h>
@@ -396,7 +396,7 @@
          return 0;
     }
 ```
-## Output of the program
+#### Output of the program
 ```
     Enter The Value of x: 45
     Answer is a = x 45.000
@@ -405,7 +405,7 @@
     Answer is a*x = 2025.000
     Answer is a/x= 45.000
 ```
-#  13. Program to use Operator Precedence
+###  13. Program to use Operator Precedence
 
 ```
     #include<stdio.h>
@@ -438,7 +438,7 @@
          return 0;
     }
 ```
-## Output of the program
+#### Output of the program
 ```
     Enter The Value of a: 45
     Enter The Value of b: 31
@@ -450,7 +450,7 @@
      a*d/(c-b-a) = -55.086
     (b-c)*(a-d) = -338.000
 ```
-#  14. Program to find Average
+###  14. Program to find Average
 
 ```
     #include<stdio.h>
@@ -480,7 +480,7 @@
          return a;
     }
 ```
-## Output of the program
+#### Output of the program
 ```
     Enter The First Value: 45
     Enter The Second Value: 34
@@ -488,7 +488,7 @@
 
     Average is: 32.33
 ```
-#  15. Program to print F by using #
+###  15. Program to print F by using #
 
 ```
     #include<stdio.h>
@@ -500,7 +500,7 @@
 
     }
 ```
-## Output of the program
+#### Output of the program
 ```
     ########
     #
@@ -514,7 +514,7 @@
     #
     #
 ```
-#  16. Program to find FizzBuzz od a Integer
+###  16. Program to find FizzBuzz od a Integer
 
 ```
     #include<stdio.h>
@@ -535,12 +535,12 @@
          return 0;
     }
 ```
-## Output of the program
+#### Output of the program
 ```
     Enter the Interger: 171
     Fizz
 ```
-#  17. Program of print a Calculator using puts function 
+###  17. Program of print a Calculator using puts function 
 
 ```
     #include<stdio.h>
@@ -558,7 +558,7 @@
          |___________|___|\n");
     }
 ```
-## Output of the program
+#### Output of the program
 ```
      _______________
     | 1 | 2 | 3 |   |
@@ -570,7 +570,7 @@
     |     0     | * |
     |___________|___|
 ```
-#  18. Program to print a Face using puts function
+###  18. Program to print a Face using puts function
 
 ```
     #include<stdio.h>
@@ -587,7 +587,7 @@
          puts("|_______|______|\n");
     }
 ```
-## Output of the program
+#### Output of the program
 ```
     |   XXXXXXXXX  |
     |   ( ^   ^ )  |
@@ -598,7 +598,7 @@
     |       |      |
     |_______|______|
 ```
-#  19. Program of Addition of 2x2 Matrix
+###  19. Program of Addition of 2x2 Matrix
 
 ```
     #include<stdio.h>
@@ -648,7 +648,7 @@
          return 0;
     }
 ```
-## Output of the program
+#### Output of the program
 ```
     Sample of Ist matrix: | a=1      b=2 |
                           | c=3      d=4 |
@@ -675,7 +675,7 @@
     Substraction of Matrix(B-A) is: | -4.00     0.00 |
                                     | 5.00     1.00 |
 ```
-#  20. Program of Multiplication of 2x2 Matrix
+#####  20. Program of Multiplication of 2x2 Matrix
 
 ```
     #include<stdio.h>
@@ -713,7 +713,7 @@
          return 0;
     }
 ```
-## Output of the program
+#### Output of the program
 ```
     Sample of Ist matrix: | a=1      b=2 |
                           | c=3      d=4 |
@@ -733,7 +733,7 @@
     Multiplication of A,B is: | 66.00     40.00 |
                               | 12.00     20.00 |
 ```
-#  21. Program of FizzBuzz in a continues loop
+###  21. Program of FizzBuzz in a continues loop
 
 ```
     #include<stdio.h>
@@ -759,7 +759,7 @@
          return 0;
     }
 ```
-## Output of the program
+#### Output of the program
 ```
     Enter The Integer: 17
 
@@ -781,7 +781,7 @@
     16
     17
 ```
-# 22. Program to find Sum by using function
+### 22. Program to find Sum by using function
 
 ```
       #include<stdio.h>
@@ -802,13 +802,13 @@
           return a*b;
          }
 ```         
-## Output of the program
+#### Output of the program
 ```
       Enter The Value of a: 4
       Enter The Value of b: 5
       Answer is: 20.00
 ``` 
-# 23. Program to print a Pyramid
+### 23. Program to print a Pyramid
 
 ```
      #include<stdio.h>
@@ -833,7 +833,7 @@
          return 0;
      }
 ```
-## Output of the program
+#### Output of the program
 ```
      Enter number of Rows: 6
      
@@ -844,7 +844,7 @@
       ********* 
      ***********
 ```     
-# 24. Program of Linear search for One Dimensional array
+### 24. Program of Linear search for One Dimensional array
 
 ```
     #include<stdio.h>
@@ -874,7 +874,7 @@
         return 0;
     }
 ```
-## Output of the program
+#### Output of the program
 ```
 First Case
 
@@ -889,7 +889,7 @@ First Case
     Search is Unsucessfull 2 Element is not present in the array
     
 ```
-# 25. Program of linear search with desirable values
+### 25. Program of linear search with desirable values
 
 ```
     #include<stdio.h>
@@ -921,7 +921,7 @@ First Case
     return 0;
     }
 ```
-## Output of the Program
+#### Output of the Program
 ```
     Enter the Number of elements in array: 5
 
@@ -935,7 +935,7 @@ First Case
 
     8 is not present in the array
 ```    
-# 26. Program of Binary search with desirable values
+### 26. Program of Binary search with desirable values
 
 ```
     #include<stdio.h>
@@ -979,7 +979,7 @@ First Case
     return 0;
     }
 ```
-## output of the Program
+#### output of the Program
 ```
     Enter the size of array: 7
       
@@ -994,7 +994,7 @@ First Case
     Enter the element you wants to search: 5
     Location of given 5 is 1 
 ```    
-# 27. Program to find Prime number
+### 27. Program to find Prime number
 
 ```
       #include<stdio.h>
@@ -1016,7 +1016,7 @@ First Case
       return 0;
       }
 ```
-## Output of the program
+#### Output of the program
 ```
       Enter the Number: 7
       7 is not a Prime Number
@@ -1024,7 +1024,7 @@ First Case
       Enter the Number: 8
       8 is not a Prime Number
 ```      
-# 28. Program of days of the week 
+### 28. Program of days of the week 
 
 ```
      #include<stdio.h>
@@ -1063,13 +1063,13 @@ First Case
      return 0;
      }
  ```    
- ## Output of the Program
+#### Output of the Program
 ``` 
     Enter the day Number: 3
 
     Tuesday
 ```    
-# 29 Program of while loop
+### 29 Program of while loop
 
 ```
     #include<stdio.h>
@@ -1084,7 +1084,7 @@ First Case
     return 0;
     }
 ```    
-## Output of the Program
+#### Output of the Program
 ```
     1
     2
@@ -1097,7 +1097,7 @@ First Case
     9
     10
 ```    
-# 30 Program of Volume(Different Shapes)
+##### 30 Program of Volume(Different Shapes)
 
 ```
     #include<stdio.h>
@@ -1169,7 +1169,7 @@ First Case
     
     } 
 ```
-## output of the Program 
+#### output of the Program 
 ```
     Press 1 (Sphere) 
     Press 2 (Cube) 
@@ -1202,7 +1202,7 @@ First Case
     Volume of Cone = 6.2857
 ```
 
-# 31. Program to find Sum of A.P series
+### 31. Program to find Sum of A.P series
 ```
     #include<stdio.h>
     int main()
@@ -1238,7 +1238,7 @@ First Case
     return 0;
     }
 ```  
-## Output of the Program 
+#### Output of the Program 
 ```
     Enter N of the series: 10
     Enter first or last term of the series: 2
