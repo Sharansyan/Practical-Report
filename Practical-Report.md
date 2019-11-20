@@ -19,7 +19,7 @@
     }
 ```
 
-#### Output of the program
+### Output of the program
 
     Hello World
 
@@ -44,7 +44,7 @@
     }
 ```  
 
-#### Output of the program
+### Output of the program
 
     Enter The First Numder: 45.26
 
@@ -75,7 +75,7 @@
     }
 ```
 
-#### Output of the program
+### Output of the program
 
     73.00 x 1 = 73.000
     73.00 x 2 = 146.000
@@ -110,7 +110,7 @@
      }
 ```
 
-#### Output of the program
+### Output of the program
 
     Enter The Radius of Circle: 4.5
 
@@ -142,7 +142,7 @@
     }
 ```
 
-#### Output of the program
+### Output of the program
 
     Enter Height: 24
 
@@ -174,7 +174,7 @@
     }
 ```
 
-#### Output of the program
+### Output of the program
 
     Enter The Principal Amount: 4000
 
@@ -218,7 +218,7 @@
     }
 ```
 
-#### Output of the program
+### Output of the program
 
     Enter The First Value: 5
 
@@ -239,7 +239,7 @@
     }
 ```
 
-#### Output of the program
+### Output of the program
 
     a=100
     b=120
@@ -282,7 +282,7 @@
     }
 ```
 
-#### Output of the program
+### Output of the program
 
     Enter The First Value: 5
 
@@ -316,7 +316,7 @@
     }
 ```
 
-#### Output of the program
+### Output of the program
 
     Enter The Number of Students: 3
 
@@ -369,7 +369,7 @@
     }
 ```
 
-#### Output of the program
+### Output of the program
 
     Enter The Value of x: 45
 
@@ -408,7 +408,7 @@
     }
 ```
 
-#### Output of the program
+### Output of the program
 
     Enter The Value of x: 45
     Answer is a = x 45.000
@@ -451,7 +451,7 @@
     }
 ```
 
-#### Output of the program
+### Output of the program
 
     Enter The Value of a: 45
     Enter The Value of b: 31
@@ -494,7 +494,7 @@
     }
 ```
 
-#### Output of the program
+### Output of the program
 
     Enter The First Value: 45
     Enter The Second Value: 34
@@ -515,7 +515,7 @@
     }
 ```
 
-#### Output of the program
+### Output of the program
 
     ########
     #
@@ -551,7 +551,7 @@
     }
 ```
 
-#### Output of the program
+### Output of the program
 
     Enter the Interger: 171
     Fizz
@@ -575,7 +575,7 @@
     }
 ```
 
-#### Output of the program
+### Output of the program
 
      _______________
     | 1 | 2 | 3 |   |
@@ -605,7 +605,7 @@
     }
 ```
 
-#### Output of the program
+### Output of the program
 
     ________________
     |   XXXXXXXXX  |
@@ -668,7 +668,7 @@
     }
 ```
 
-#### Output of the program
+### Output of the program
 
     Sample of Ist matrix: | a=1      b=2 |
                           | c=3      d=4 |
@@ -734,7 +734,7 @@
     }
 ```
 
-#### Output of the program
+### Output of the program
 
     Sample of Ist matrix: | a=1      b=2 |
                           | c=3      d=4 |
@@ -780,7 +780,7 @@
          return 0;
     }
 ```
-#### Output of the program
+### Output of the program
 
     Enter The Integer: 17
 
@@ -823,7 +823,7 @@
           return a*b;
          }
 ```         
-#### Output of the program
+### Output of the program
 
       Enter The Value of a: 4
       Enter The Value of b: 5
@@ -855,7 +855,7 @@
      }
 ```
 
-#### Output of the program
+### Output of the program
 
      Enter number of Rows: 6
      
@@ -896,15 +896,15 @@
         return 0;
     }
 ```
-#### Output of the program
+### Output of the program
 
-First Case
+    First Case
 
     Enter the Value to be searched: 5
 
     Search is Sucessfull 5 Element is present in the array
     
- Second Case
+    Second Case
     
     Enter the Value to be searched: 2
 
@@ -943,7 +943,7 @@ First Case
     return 0;
     }
 ```
-#### Output of the Program
+### Output of the Program
 
     Enter the Number of elements in array: 5
 
@@ -1001,7 +1001,7 @@ First Case
     return 0;
     }
 ```
-#### output of the Program
+### output of the Program
 
     Enter the size of array: 7
       
@@ -1039,7 +1039,7 @@ First Case
       }
 ```
 
-#### Output of the program
+### Output of the program
 
       Enter the Number: 7
       7 is not a Prime Number
@@ -1086,7 +1086,7 @@ First Case
      return 0;
      }
  ```    
-#### Output of the Program
+### Output of the Program
 
     Enter the day Number: 3
 
@@ -1107,7 +1107,7 @@ First Case
     return 0;
     }
 ```    
-#### Output of the Program
+### Output of the Program
 
     1
     2
@@ -1192,7 +1192,7 @@ First Case
     
     } 
 ```
-#### output of the Program 
+### output of the Program 
 
     Press 1 (Sphere) 
     Press 2 (Cube) 
@@ -1262,7 +1262,7 @@ First Case
     return 0;
     }
 ```  
-#### Output of the Program 
+### Output of the Program 
 
     Enter N of the series: 10
     Enter first or last term of the series: 2
