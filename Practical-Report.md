@@ -7,21 +7,7 @@
 ## **SECTION - CE(B2)**
 ----------------------------------------------
 
-###  1. Program to print Hello World
-
-```C
-    #include<stdio.h>
-    void main()
-    {
-         puts("\nHello World\n");
-    }
-```
-
-### Output of the program
-
-    Hello World
-
-###  2. Program to find Sum
+###  1. Program to find Sum
 
 ```C
     #include<stdio.h>
@@ -49,6 +35,20 @@
     Enter The Second Numder: 78.2648
 
     Answer is: = 123.525
+   
+###  1. Program to print Hello World
+
+```C
+    #include<stdio.h>
+    void main()
+    {
+         puts("\nHello World\n");
+    }
+```
+
+### Output of the program
+
+    Hello World
 
 ###  3. Program to print a Table
 
