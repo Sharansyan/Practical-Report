@@ -7,7 +7,7 @@
 ## **SECTION-CE(B2)**
 ## **DEPARTMENT OF CIVIL ENGINEERING**
 ## **GURU NANAK DEV ENGINEEERING COLLEGE,LUDHIANA**
-
+----------------------------------------------
 
 ###  1. Program to print Hello World
 
@@ -18,10 +18,13 @@
          puts("\nHello World\n");
     }
 ```
+
 #### Output of the program
+
 ```C
     Hello World
 ```
+
 ###  2. Program to find Sum
 
 ```C
@@ -42,7 +45,9 @@
          return 0;
     }
 ```  
+
 #### Output of the program
+
 ```C
     Enter The First Numder: 45.26
 
@@ -50,6 +55,7 @@
 
     Answer is: = 123.525
 ```
+
 ###  3. Program to print a Table
 
 ```C
@@ -72,8 +78,10 @@
          return 0;
     }
 ```
+
 #### Output of the program
-```
+
+```C
     73.00 x 1 = 73.000
     73.00 x 2 = 146.000
     73.00 x 3 = 219.000
@@ -82,9 +90,10 @@
     73.00 x 6 = 438.000
     73.00 x 7 = 511.000
 ```
+
 ###  4. Program to find Area, Perieter, Volume of a Circle
 
-```
+```C
     #include<stdio.h>
     int main()
     {
@@ -106,17 +115,20 @@
          return 0;
      }
 ```
+
 #### Output of the program
-```
+
+```C
     Enter The Radius of Circle: 4.5
 
     Perimeter of Circle is: = 28.29
     Area of Circle is: = 63.64
     Volume of Circle is: = 381.86
 ```
+
 ###  5. Program to find Area, Perimeter of a Rectangle
 
-```
+```C
     #include<stdio.h>
     int main()
     {
@@ -137,8 +149,10 @@
          return 0;
     }
 ```
-#### Output of the program#
-```
+
+#### Output of the program
+
+```C
     Enter Height: 24
 
     Enter Bredth: 60
@@ -146,9 +160,10 @@
     Area of Sqare (or) Rectangle: = 1440.000
     Perimeter of Sqare (or) Rectangle: = 168.000
 ```
+
 ###  6. Program to find Interest
 
-```
+```C
     #include<stdio.h>
     int main()
     {
@@ -168,8 +183,10 @@
          return Interest;
     }
 ```
+
 #### Output of the program
-```
+
+```C
     Enter The Principal Amount: 4000
 
     Enter The Interest Rate: 4
@@ -178,9 +195,10 @@
 
     Simple Intesest is: = 480.00
 ```
+
 ###  7. Program to find Maximum
 
-```
+```C
     #include<stdio.h>
     int max(float x,float y);
     int main()
@@ -211,17 +229,20 @@
          return result;
     }
 ```
+
 #### Output of the program
-```
+
+```C
     Enter The First Value: 5
 
     Enter The Second Value: 4
 
     Maximum value is: 5.00
 ```
+
 ###  8. Program of Sum of two Constants
 
-```
+```C
     #include<stdio.h>
     int main()
     {
@@ -231,15 +252,18 @@
          return 0;
     }
 ```
+
 #### Output of the program
 
+```C
     a=100
     b=120
     Sum  of a and b is :220
+```
 
 ###  9. Program To find Minimum
 
-```
+```C
     #include<stdio.h>
     int min(float x,float y);
     int main()
@@ -273,17 +297,20 @@
          return result;
     }
 ```
+
 #### Output of the program
-```
+
+```C
     Enter The First Value: 5
 
     Enter The SecondValue: 3
 
     Minimum value is: 3.00
 ```
+
 ###  10. Program to print Bio Data of Students
   
-  ```
+```C
     #include<stdio.h>
     int main()
     {
@@ -306,8 +333,10 @@
     return 0;
     }
 ```
+
 #### Output of the program
-```
+
+```C
     Enter The Number of Students: 3
 
     Enter The Name of The Student : Sharan
@@ -328,9 +357,10 @@
     Name = Rohan
     Roll No. = 1914090
 ```
+
 ###  11. Program to use Arithmetic Operators
 
-```
+```C
     #include<stdio.h>
     int main()
     {
@@ -358,8 +388,10 @@
          return 0;
     }
 ```
+
 #### Output of the program
-```
+
+```C
     Enter The Value of x: 45
 
     Enter The Value of y: 31
@@ -370,9 +402,10 @@
     x/y = 1.452
     y/x = 0.689
 ```
+
 ###  12. Program to use Assignment Operators
 
-```
+```C
     #include<stdio.h>
     int main()
     {
@@ -396,8 +429,10 @@
          return 0;
     }
 ```
+
 #### Output of the program
-```
+
+```C
     Enter The Value of x: 45
     Answer is a = x 45.000
     Answer is a+x = 90.000
@@ -405,9 +440,10 @@
     Answer is a*x = 2025.000
     Answer is a/x= 45.000
 ```
+
 ###  13. Program to use Operator Precedence
 
-```
+```C
     #include<stdio.h>
  
     int main()
@@ -438,8 +474,10 @@
          return 0;
     }
 ```
+
 #### Output of the program
-```
+
+```C
     Enter The Value of a: 45
     Enter The Value of b: 31
     Enter The Value of c: 18
@@ -450,9 +488,10 @@
      a*d/(c-b-a) = -55.086
     (b-c)*(a-d) = -338.000
 ```
+
 ###  14. Program to find Average
 
-```
+```C
     #include<stdio.h>
     float average();
 
@@ -480,17 +519,20 @@
          return a;
     }
 ```
+
 #### Output of the program
-```
+
+```C
     Enter The First Value: 45
     Enter The Second Value: 34
     Enter The Third Value: 18
 
     Average is: 32.33
 ```
+
 ###  15. Program to print F by using #
 
-```
+```C
     #include<stdio.h>
     int main()
     {
@@ -500,8 +542,10 @@
 
     }
 ```
+
 #### Output of the program
-```
+
+```C
     ########
     #
     #
@@ -514,6 +558,7 @@
     #
     #
 ```
+
 ###  16. Program to find FizzBuzz od a Integer
 
 ```
@@ -535,14 +580,17 @@
          return 0;
     }
 ```
+
 #### Output of the program
-```
+
+```C
     Enter the Interger: 171
     Fizz
 ```
+
 ###  17. Program of print a Calculator using puts function 
 
-```
+```C
     #include<stdio.h>
     void main()
     {
@@ -558,8 +606,10 @@
          |___________|___|\n");
     }
 ```
+
 #### Output of the program
-```
+
+```C
      _______________
     | 1 | 2 | 3 |   |
     |___|___|___|   |
@@ -570,9 +620,10 @@
     |     0     | * |
     |___________|___|
 ```
+
 ###  18. Program to print a Face using puts function
 
-```
+```C
     #include<stdio.h>
     void main()
     {
@@ -587,8 +638,10 @@
          puts("|_______|______|\n");
     }
 ```
+
 #### Output of the program
-```
+
+```C
     |   XXXXXXXXX  |
     |   ( ^   ^ )  |
     |   ( 0   0 )  |
@@ -598,9 +651,10 @@
     |       |      |
     |_______|______|
 ```
+
 ###  19. Program of Addition of 2x2 Matrix
 
-```
+```C
     #include<stdio.h>
     int main()
 
@@ -648,8 +702,10 @@
          return 0;
     }
 ```
+
 #### Output of the program
-```
+
+```C
     Sample of Ist matrix: | a=1      b=2 |
                           | c=3      d=4 |
 
@@ -675,9 +731,10 @@
     Substraction of Matrix(B-A) is: | -4.00     0.00 |
                                     | 5.00     1.00 |
 ```
+
 #####  20. Program of Multiplication of 2x2 Matrix
 
-```
+```C
     #include<stdio.h>
     int main()
     {
@@ -713,8 +770,10 @@
          return 0;
     }
 ```
+
 #### Output of the program
-```
+
+```C
     Sample of Ist matrix: | a=1      b=2 |
                           | c=3      d=4 |
 
@@ -733,9 +792,10 @@
     Multiplication of A,B is: | 66.00     40.00 |
                               | 12.00     20.00 |
 ```
+
 ###  21. Program of FizzBuzz in a continues loop
 
-```
+```C
     #include<stdio.h>
     int main()
     {
@@ -760,7 +820,8 @@
     }
 ```
 #### Output of the program
-```
+
+```C
     Enter The Integer: 17
 
     1
@@ -783,7 +844,7 @@
 ```
 ### 22. Program to find Sum by using function
 
-```
+```C
       #include<stdio.h>
       int ans(float a, float b);
       int main()
