@@ -1090,33 +1090,38 @@
 
     Tuesday
   
-### 29 Program of while loop
+
+### 29. Program to print Even numbers using while loop
 
 ```C
-    #include<stdio.h>
-    int main()
-    {   
-    int x=1;
-    
-    while(x<=10)
-    {  printf("%d\n",x);
-       x++;  }
-    
-    return 0;
-    }
-```    
+#include<stdio.h>
+int main()
+{
+int x=1,N;
+printf("\n\nEntere the Integer: ");
+scanf("%d", &N);
+
+   while(x<=N)
+   {
+     if(x%2==0)
+     printf("\n%d", x);
+     else
+     printf("");
+     x++;
+   }
+return 0;
+}
+```
+
 ### Output of the Program
 
-    1
-    2
-    3
-    4
-    5
-    6
-    7
-    8
-    9
-    10
+     Entere the Integer: 10
+
+     2
+     4
+     6
+     8  
+     10
   
 ### 30 Program of Volume(Different Shapes)
 
@@ -1273,3 +1278,108 @@
 
     Sum of given series = 200.00
 
+###32. Program to multiply Two Floating Point Numbers
+
+```C
+     #include<stdio.h>
+     int main()
+     {
+     float x,y,ans;
+       printf("\n\nEnter the First value: ");
+       scanf("%f", &x);
+       printf("Enter the Second value: ");
+       scanf("%f", &y);
+
+       ans = x*y;
+
+       printf("\nAnswer = %.3f",ans);
+     return 0;
+     }
+```
+
+### Output of the Program
+
+     Enter the First value: 1.2
+     Enter the Second value: 3.2
+  
+     Answer = 3.840
+     
+###33. Program to find weather the Number is Even or Odd using if-else statement
+
+```C
+     #include<stdio.h>
+     int main()
+     {
+     int x;
+       printf("\n\nEnter the Number: ");
+       scanf("%d", &x);
+
+       if(x%2==0)
+       printf("%d is Even", x);
+       else
+       printf("%d is Odd", x);
+     return 0;
+     }
+```
+
+### Output of the Program
+
+     Enter the Number: 6
+     6 is Even
+
+     Enter the Number: 9
+     9 is Odd
+     
+### 34. Program to find Sum of First 10 Natural Numbers using for loop
+
+```C
+#include<stdio.h>
+int main()
+{
+int x,ans;
+  for(x=1;x<=10;x++)
+  {  ans += x; }
+
+  printf("\n\nSum of first 10 Nmubers: %d",ans);
+return 0;
+}
+```
+
+### Output of the Program
+
+     Sum of first 10 Nmubers: 55
+
+### 35. Program to print Even numbers using while loop
+
+```C
+#include<stdio.h>
+int main()
+{
+int x=1,N;
+printf("\n\nEntere the Integer: ");
+scanf("%d", &N);
+
+   while(x<=N)
+   {
+     if(x%2==0)
+     printf("\n%d", x);
+     else
+     printf("");
+     x++;
+   }
+return 0;
+}
+```
+
+### Output of the Program
+
+     Entere the Integer: 10
+
+     2
+     4
+     6
+     8  
+     10
+
+### 36. Program to print Odd numbers using do while loop
+ 
