@@ -3,12 +3,13 @@
 # **PROGRAMMING FOR PROGRAM SOLVING ESC-18105**
 ## **NAME-SHARANJIT SINGH**
 ## **ROLL NO-1914103**
-## **BRANCH-*CIVIL**
+## **BRANCH-CIVIL**
 ## **SECTION-CE(B2)**
 ## **DEPARTMENT OF CIVIL ENGINEERING**
-# **GURU NANAK DEV ENGINEEERING COLLEGE,LUDHIANA**
+## **GURU NANAK DEV ENGINEEERING COLLEGE,LUDHIANA**
 
-#  1. Program to print Hello World
+
+###  1. Program to print Hello World
 
 ```C
     #include<stdio.h>
@@ -17,11 +18,11 @@
          puts("\nHello World\n");
     }
 ```
-## Output of the program
+#### Output of the program
 ```C
     Hello World
 ```
-#  2. Program to find Sum
+###  2. Program to find Sum
 
 ```C
     #include<stdio.h>
@@ -842,9 +843,10 @@
        *******  
       ********* 
      ***********
-     
+```     
 # 24. Program of Linear search for One Dimensional array
 
+```
     #include<stdio.h>
     int main()
 
@@ -871,9 +873,9 @@
         
         return 0;
     }
-
+```
 ## Output of the program
-
+```
 First Case
 
     Enter the Value to be searched: 5
@@ -886,9 +888,10 @@ First Case
 
     Search is Unsucessfull 2 Element is not present in the array
     
-    
+```
 # 25. Program of linear search with desirable values
 
+```
     #include<stdio.h>
     int main()
     {
@@ -917,9 +920,9 @@ First Case
 
     return 0;
     }
-    
+```
 ## Output of the Program
-
+```
     Enter the Number of elements in array: 5
 
     Enter [1] element: 1
@@ -931,9 +934,10 @@ First Case
     Enter a number to search: 8
 
     8 is not present in the array
-    
+```    
 # 26. Program of Binary search with desirable values
 
+```
     #include<stdio.h>
     int main()
     {
@@ -959,14 +963,8 @@ First Case
 
     while(f<=l)
     {
-         if (a[m]<s)
-  Enter the Number: 7
-7 is not a Prime Number|>
-|>./a.out 
-
-Enter the Number: 8
-8 is not a Prime Number|>
-        {  f=m+1;  }
+          if (a[m]<s)
+          {  f=m+1;  }
           else if(a[m]==s)
           {  printf("Location of given %d is %d \n",s,m);
              break;  }
@@ -980,9 +978,9 @@ Enter the Number: 8
   
     return 0;
     }
-    
+```
 ## output of the Program
-
+```
     Enter the size of array: 7
       
     Enter [1] element: 5
@@ -995,9 +993,10 @@ Enter the Number: 8
   
     Enter the element you wants to search: 5
     Location of given 5 is 1 
-    
+```    
 # 27. Program to find Prime number
 
+```
       #include<stdio.h>
       int main()
       { 
@@ -1016,17 +1015,18 @@ Enter the Number: 8
         }
       return 0;
       }
-
+```
 ## Output of the program
-
+```
       Enter the Number: 7
       7 is not a Prime Number
 
       Enter the Number: 8
       8 is not a Prime Number
-      
+```      
 # 28. Program of days of the week 
 
+```
      #include<stdio.h>
      int main()
      {
@@ -1062,15 +1062,16 @@ Enter the Number: 8
 
      return 0;
      }
-     
+ ```    
  ## Output of the Program
- 
+``` 
     Enter the day Number: 3
 
     Tuesday
-    
+```    
 # 29 Program of while loop
 
+```
     #include<stdio.h>
     int main()
     {   
@@ -1082,9 +1083,9 @@ Enter the Number: 8
     
     return 0;
     }
-    
+```    
 ## Output of the Program
-
+```
     1
     2
     3
@@ -1095,9 +1096,10 @@ Enter the Number: 8
     8
     9
     10
-    
+```    
 # 30 Program of Volume(Different Shapes)
 
+```
     #include<stdio.h>
     int main()
     {
@@ -1166,9 +1168,9 @@ Enter the Number: 8
     return 0;
     
     } 
-
+```
 ## output of the Program 
-
+```
     Press 1 (Sphere) 
     Press 2 (Cube) 
     Press 3 (Rectangle) 
@@ -1198,9 +1200,10 @@ Enter the Number: 8
     Enter the Radius of Cone: 2
     Enter the Height of Cone: 1.5
     Volume of Cone = 6.2857
+```
 
 # 31. Program to find Sum of A.P series
-
+```
     #include<stdio.h>
     int main()
     {   
@@ -1234,9 +1237,9 @@ Enter the Number: 8
       printf("\nEnter a valid input(1 or 2)");
     return 0;
     }
-    
+```  
 ## Output of the Program 
-
+```
     Enter N of the series: 10
     Enter first or last term of the series: 2
 
@@ -1247,3 +1250,4 @@ Enter the Number: 8
     Enter the second term: 6
 
     Sum of given series = 200.00
+```
