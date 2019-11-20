@@ -1383,4 +1383,44 @@ return 0;
      11
      13
      
-### 36. Program 
+### 36. Program of a Simple Calculator
+
+```C
+     include<stdio.h>
+     int main()
+     {
+     char operator;
+     float x,y;
+     printf("\n\nEnter an operator (+, -, *, /): ");
+     scanf("%c", &operator);
+     printf("\nEnter two operands: ");
+     scanf("%f %f", &x, &y);
+     switch(operator)
+     {
+             case '+':
+             printf("\n%.2f + %.2f = %.2f", x, y, x+y);
+             break;
+             case '-':
+             printf("\n%.2f - %.2f = %.2f", x, y, x-y);
+             break;
+             case '*':
+             printf("\n%.2f * %.2f = %.2f", x, y, x*y);
+             break;
+             case '/':
+             printf("\n%.2f / %.2f = %.2f", x, y, x/y);
+             break;
+             default:
+             printf("\nError! operator is not correct");
+     }
+     return 0;
+     }
+```
+### Output of the Program
+
+     nter an operator (+, -, *, /): /
+        
+     nter two operands: 72  8
+        
+     2.00 / 8.00 = 9.00
+
+
