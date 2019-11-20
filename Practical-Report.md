@@ -1393,7 +1393,7 @@ return 0;
      float x,y;
      printf("\n\nEnter an operator (+, -, *, /): ");
      scanf("%c", &operator);
-     printf("\nEnter two operands: ");
+     printf("Enter two operands: ");
      scanf("%f %f", &x, &y);
      switch(operator)
      {
@@ -1417,10 +1417,8 @@ return 0;
 ```
 ### Output of the Program
 
-     nter an operator (+, -, *, /): /
-        
-     nter two operands: 72  8
-        
-     2.00 / 8.00 = 9.00
+Enter an operator (+, -, *, /): *
+Enter two operands: 146  21
 
+146.00 * 21.00 = 3066.00
 
