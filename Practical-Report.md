@@ -1417,8 +1417,8 @@ return 0;
 ```
 ### Output of the Program
 
-Enter an operator (+, -, *, /): *
-Enter two operands: 146  21
+     Enter an operator (+, -, *, /): *
+     Enter two operands: 146  21
 
-146.00 * 21.00 = 3066.00
-
+     146.00 * 21.00 = 3066.00
+ 
