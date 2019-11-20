@@ -21,9 +21,7 @@
 
 #### Output of the program
 
-```C
     Hello World
-```
 
 ###  2. Program to find Sum
 
@@ -48,13 +46,11 @@
 
 #### Output of the program
 
-```C
     Enter The First Numder: 45.26
 
     Enter The Second Numder: 78.2648
 
     Answer is: = 123.525
-```
 
 ###  3. Program to print a Table
 
@@ -81,7 +77,6 @@
 
 #### Output of the program
 
-```C
     73.00 x 1 = 73.000
     73.00 x 2 = 146.000
     73.00 x 3 = 219.000
@@ -89,7 +84,6 @@
     73.00 x 5 = 365.000
     73.00 x 6 = 438.000
     73.00 x 7 = 511.000
-```
 
 ###  4. Program to find Area, Perieter, Volume of a Circle
 
@@ -118,13 +112,11 @@
 
 #### Output of the program
 
-```C
     Enter The Radius of Circle: 4.5
 
     Perimeter of Circle is: = 28.29
     Area of Circle is: = 63.64
     Volume of Circle is: = 381.86
-```
 
 ###  5. Program to find Area, Perimeter of a Rectangle
 
@@ -152,14 +144,12 @@
 
 #### Output of the program
 
-```C
     Enter Height: 24
 
     Enter Bredth: 60
 
     Area of Sqare (or) Rectangle: = 1440.000
     Perimeter of Sqare (or) Rectangle: = 168.000
-```
 
 ###  6. Program to find Interest
 
@@ -186,7 +176,6 @@
 
 #### Output of the program
 
-```C
     Enter The Principal Amount: 4000
 
     Enter The Interest Rate: 4
@@ -194,7 +183,6 @@
     Enter The Time (in months): 3
 
     Simple Intesest is: = 480.00
-```
 
 ###  7. Program to find Maximum
 
@@ -232,13 +220,11 @@
 
 #### Output of the program
 
-```C
     Enter The First Value: 5
 
     Enter The Second Value: 4
 
     Maximum value is: 5.00
-```
 
 ###  8. Program of Sum of two Constants
 
@@ -255,11 +241,9 @@
 
 #### Output of the program
 
-```C
     a=100
     b=120
     Sum  of a and b is :220
-```
 
 ###  9. Program To find Minimum
 
@@ -300,13 +284,11 @@
 
 #### Output of the program
 
-```C
     Enter The First Value: 5
 
     Enter The SecondValue: 3
 
     Minimum value is: 3.00
-```
 
 ###  10. Program to print Bio Data of Students
   
@@ -336,7 +318,6 @@
 
 #### Output of the program
 
-```C
     Enter The Number of Students: 3
 
     Enter The Name of The Student : Sharan
@@ -356,7 +337,6 @@
 
     Name = Rohan
     Roll No. = 1914090
-```
 
 ###  11. Program to use Arithmetic Operators
 
@@ -391,7 +371,6 @@
 
 #### Output of the program
 
-```C
     Enter The Value of x: 45
 
     Enter The Value of y: 31
@@ -401,7 +380,6 @@
     x * y = 1395.000
     x/y = 1.452
     y/x = 0.689
-```
 
 ###  12. Program to use Assignment Operators
 
@@ -432,14 +410,12 @@
 
 #### Output of the program
 
-```C
     Enter The Value of x: 45
     Answer is a = x 45.000
     Answer is a+x = 90.000
     Answer is a-x = 45.000
     Answer is a*x = 2025.000
     Answer is a/x= 45.000
-```
 
 ###  13. Program to use Operator Precedence
 
@@ -477,7 +453,6 @@
 
 #### Output of the program
 
-```C
     Enter The Value of a: 45
     Enter The Value of b: 31
     Enter The Value of c: 18
@@ -487,7 +462,6 @@
     (c+d)*a*b = 124155.000
      a*d/(c-b-a) = -55.086
     (b-c)*(a-d) = -338.000
-```
 
 ###  14. Program to find Average
 
@@ -522,13 +496,11 @@
 
 #### Output of the program
 
-```C
     Enter The First Value: 45
     Enter The Second Value: 34
     Enter The Third Value: 18
 
     Average is: 32.33
-```
 
 ###  15. Program to print F by using #
 
@@ -545,7 +517,6 @@
 
 #### Output of the program
 
-```C
     ########
     #
     #
@@ -557,7 +528,6 @@
     #
     #
     #
-```
 
 ###  16. Program to find FizzBuzz od a Integer
 
@@ -583,10 +553,8 @@
 
 #### Output of the program
 
-```C
     Enter the Interger: 171
     Fizz
-```
 
 ###  17. Program of print a Calculator using puts function 
 
@@ -609,7 +577,6 @@
 
 #### Output of the program
 
-```C
      _______________
     | 1 | 2 | 3 |   |
     |___|___|___|   |
@@ -619,7 +586,6 @@
     |___|___|___|___|
     |     0     | * |
     |___________|___|
-```
 
 ###  18. Program to print a Face using puts function
 
@@ -641,7 +607,7 @@
 
 #### Output of the program
 
-```C
+    ________________
     |   XXXXXXXXX  |
     |   ( ^   ^ )  |
     |   ( 0   0 )  |
@@ -650,7 +616,6 @@
     |      \_/     |
     |       |      |
     |_______|______|
-```
 
 ###  19. Program of Addition of 2x2 Matrix
 
@@ -705,7 +670,6 @@
 
 #### Output of the program
 
-```C
     Sample of Ist matrix: | a=1      b=2 |
                           | c=3      d=4 |
 
@@ -730,9 +694,8 @@
 
     Substraction of Matrix(B-A) is: | -4.00     0.00 |
                                     | 5.00     1.00 |
-```
 
-#####  20. Program of Multiplication of 2x2 Matrix
+###  20. Program of Multiplication of 2x2 Matrix
 
 ```C
     #include<stdio.h>
@@ -773,7 +736,6 @@
 
 #### Output of the program
 
-```C
     Sample of Ist matrix: | a=1      b=2 |
                           | c=3      d=4 |
 
@@ -791,7 +753,6 @@
 
     Multiplication of A,B is: | 66.00     40.00 |
                               | 12.00     20.00 |
-```
 
 ###  21. Program of FizzBuzz in a continues loop
 
@@ -821,7 +782,6 @@
 ```
 #### Output of the program
 
-```C
     Enter The Integer: 17
 
     1
@@ -841,7 +801,7 @@
     FizzBuzz
     16
     17
-```
+    
 ### 22. Program to find Sum by using function
 
 ```C
@@ -864,14 +824,14 @@
          }
 ```         
 #### Output of the program
-```
+
       Enter The Value of a: 4
       Enter The Value of b: 5
       Answer is: 20.00
-``` 
+      
 ### 23. Program to print a Pyramid
 
-```
+```C
      #include<stdio.h>
      int main()
      {
@@ -894,8 +854,9 @@
          return 0;
      }
 ```
+
 #### Output of the program
-```
+
      Enter number of Rows: 6
      
           *  
@@ -904,10 +865,10 @@
        *******  
       ********* 
      ***********
-```     
+   
 ### 24. Program of Linear search for One Dimensional array
 
-```
+```C
     #include<stdio.h>
     int main()
 
@@ -936,7 +897,7 @@
     }
 ```
 #### Output of the program
-```
+
 First Case
 
     Enter the Value to be searched: 5
@@ -949,10 +910,10 @@ First Case
 
     Search is Unsucessfull 2 Element is not present in the array
     
-```
+
 ### 25. Program of linear search with desirable values
 
-```
+```C
     #include<stdio.h>
     int main()
     {
@@ -983,7 +944,7 @@ First Case
     }
 ```
 #### Output of the Program
-```
+
     Enter the Number of elements in array: 5
 
     Enter [1] element: 1
@@ -995,10 +956,10 @@ First Case
     Enter a number to search: 8
 
     8 is not present in the array
-```    
+ 
 ### 26. Program of Binary search with desirable values
 
-```
+```C
     #include<stdio.h>
     int main()
     {
@@ -1041,7 +1002,7 @@ First Case
     }
 ```
 #### output of the Program
-```
+
     Enter the size of array: 7
       
     Enter [1] element: 5
@@ -1054,10 +1015,10 @@ First Case
   
     Enter the element you wants to search: 5
     Location of given 5 is 1 
-```    
+   
 ### 27. Program to find Prime number
 
-```
+```C
       #include<stdio.h>
       int main()
       { 
@@ -1077,17 +1038,18 @@ First Case
       return 0;
       }
 ```
+
 #### Output of the program
-```
+
       Enter the Number: 7
       7 is not a Prime Number
 
       Enter the Number: 8
       8 is not a Prime Number
-```      
+ 
 ### 28. Program of days of the week 
 
-```
+```C
      #include<stdio.h>
      int main()
      {
@@ -1125,14 +1087,14 @@ First Case
      }
  ```    
 #### Output of the Program
-``` 
+
     Enter the day Number: 3
 
     Tuesday
-```    
+  
 ### 29 Program of while loop
 
-```
+```C
     #include<stdio.h>
     int main()
     {   
@@ -1146,7 +1108,7 @@ First Case
     }
 ```    
 #### Output of the Program
-```
+
     1
     2
     3
@@ -1157,10 +1119,10 @@ First Case
     8
     9
     10
-```    
-##### 30 Program of Volume(Different Shapes)
+  
+### 30 Program of Volume(Different Shapes)
 
-```
+```C
     #include<stdio.h>
     int main()
     {
@@ -1231,7 +1193,7 @@ First Case
     } 
 ```
 #### output of the Program 
-```
+
     Press 1 (Sphere) 
     Press 2 (Cube) 
     Press 3 (Rectangle) 
@@ -1261,10 +1223,11 @@ First Case
     Enter the Radius of Cone: 2
     Enter the Height of Cone: 1.5
     Volume of Cone = 6.2857
-```
+
 
 ### 31. Program to find Sum of A.P series
-```
+
+```C
     #include<stdio.h>
     int main()
     {   
@@ -1300,7 +1263,7 @@ First Case
     }
 ```  
 #### Output of the Program 
-```
+
     Enter N of the series: 10
     Enter first or last term of the series: 2
 
@@ -1311,4 +1274,4 @@ First Case
     Enter the second term: 6
 
     Sum of given series = 200.00
-```
+
