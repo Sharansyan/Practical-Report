@@ -463,41 +463,42 @@
 ###  14. Program to find Average
 
 ```C
-    #include<stdio.h>
-    float average();
+#include<stdio.h>
+int main()
+{
+int x,N;
+float avg[1000],s,ans;
 
-    int main()
-    {
-         printf("\nAverage is: %.2f",average());
-         return 0;
-      }
+printf("\nEnter the Number of elements: ");
+scanf("%d", &N);
+printf("\n");
 
-         float average()
-      {
-         float x,y,z,s,a;
+  for(x=1; x<=N; x++)
+  {  printf("Enter [%d] element: ", x);
+     scanf("%f", &avg[x]);
+     s += avg[x];  }
+  
+  ans = s/N;
 
-         printf("\nEnter The First Value: ");
-         scanf("%f",&x);
-
-         printf("Enter The Second Value: ");
-         scanf("%f",&y);
-   
-         printf("Enter The Third Value: ");
-         scanf("%f",&z);
-
-         s = x+y+z;
-         a = s/3;
-         return a;
-    }
+printf("\nAverage of %d elements = %.3f", N, ans);
+return 0;
+}
 ```
 
 ### Output of the program
 
-    Enter The First Value: 45
-    Enter The Second Value: 34
-    Enter The Third Value: 18
+     Enter the Number of elements: 8
 
-    Average is: 32.33
+     Enter [1] element: 1
+     Enter [2] element: 2
+Enter [3] element: 3
+Enter [4] element: 4
+Enter [5] element: 5
+Enter [6] element: 6
+Enter [7] element: 7
+Enter [8] element: 8
+     
+Average of 8 elements = 4.500
 
 ###  15. Program to print F by using #
 
