@@ -1349,37 +1349,38 @@ return 0;
 
      Sum of first 10 Nmubers: 55
 
-### 35. Program to print Even numbers using while loop
-
+### 35. Program to print Odd numbers using do while loop
+ 
 ```C
-#include<stdio.h>
-int main()
-{
-int x=1,N;
-printf("\n\nEntere the Integer: ");
-scanf("%d", &N);
-
-   while(x<=N)
-   {
-     if(x%2==0)
-     printf("\n%d", x);
-     else
-     printf("");
-     x++;
-   }
-return 0;
-}
+     #include<stdio.h>
+     int main()
+     {
+     int x=1,N;
+     printf("\n\nEntere the Integer: ");
+     scanf("%d", &N);
+       do
+        {
+        if(x%2!=0)
+        printf("\n%d", x);
+        else
+        printf("");
+        x++;
+        }
+       while(x<=N);
+     return 0;
+     }
 ```
 
 ### Output of the Program
 
-     Entere the Integer: 10
+     Entere the Integer: 13
 
-     2
-     4
-     6
-     8  
-     10
-
-### 36. Program to print Odd numbers using do while loop
- 
+     1
+     3
+     5
+     7
+     9
+     11
+     13
+     
+### 36. Program 
