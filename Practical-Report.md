@@ -1,12 +1,10 @@
-![College  Logo](https://www.gndec.ac.in/logo.png)
+![College Logo](https://www.gndec.ac.in/logo.png)
 
 # **PROGRAMMING FOR PROGRAM SOLVING ESC-18105**
-## **NAME-SHARANJIT SINGH**
-## **ROLL NO-1914103**
-## **BRANCH-CIVIL**
-## **SECTION-CE(B2)**
-## **DEPARTMENT OF CIVIL ENGINEERING**
-## **GURU NANAK DEV ENGINEEERING COLLEGE,LUDHIANA**
+## **NAME - SHARANJIT SINGH**
+## **ROLL NO - 1914103**
+## **BRANCH - CIVIL ENGINEERING**
+## **SECTION - CE(B2)**
 ----------------------------------------------
 
 ###  1. Program to print Hello World
