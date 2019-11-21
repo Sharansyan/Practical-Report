@@ -287,53 +287,40 @@
 
     Minimum value is: 3.00
 
-###  10. Program to print Bio Data of Students
-  
+### 10. Program to take 5 values from the user and store them in an array and Print the elements
+### stored in the array
+
 ```C
-    #include<stdio.h>
-    int main()
-    {
-         int n,R;
-         char name[25];
+     #include<stdio.h>
+     int main()
+     {
+       int x,array[5];
+       printf("\n");
+       
+       for(x=1;x<=5;x++)
+       {  printf("Enter [%d] element: ", x);
+          scanf("%d", &array[x]);  }
+          
+       for(x=1;x<=5;x++)
+       {  printf("\nElement [%d] = %d", x, array[x]);  }
 
-         printf("\nEnter The Number of Students: ");
-         scanf("%d",&n);
-
-         for(int i=1; i<=n;i++)
-      {
-         printf("\nEnter The Name of The Student : ");
-         scanf("%s", name);
-
-         printf("Enter The Roll No. of Students: ");
-         scanf("%d",&R);
-
-         printf("\nName = %s\nRoll No. = %d\n", name,R);
-      }
-    return 0;
-    }
+     return 0;
+     }
 ```
 
-### Output of the program
+### Output of the Program
 
-    Enter The Number of Students: 3
+     Enter [1] element: 4
+     Enter [2] element: 5
+     Enter [3] element: 6
+     Enter [4] element: 9
+     Enter [5] element: 2
 
-    Enter The Name of The Student : Sharan
-    Enter The Roll No. of Students: 1914103
-
-    Name = Sharan
-    Roll No. = 1914103
-
-    Enter The Name of The Student : Sidhant 
-    Enter The Roll No. of Students: 1914109
-
-    Name = Sidhant
-    Roll No. = 1914109
-
-    Enter The Name of The Student : Rohan
-    Enter The Roll No. of Students: 1914090
-
-    Name = Rohan
-    Roll No. = 1914090
+     Element [1] = 4
+     Element [2] = 5
+     Element [3] = 6
+     Element [4] = 9
+     Element [5] = 2
 
 ###  11. Program to use Arithmetic Operators
 
@@ -529,7 +516,7 @@
 
 ###  16. Program to find FizzBuzz od a Integer
 
-```
+```C
     #include<stdio.h>
     int main()
     {
@@ -1421,43 +1408,8 @@ return 0;
      Enter two operands: 146  21
 
      146.00 * 21.00 = 3066.00
- 
-### 37. Program to take 5 values from the user and store them in an array and Print the elements
-### stored in the array
 
-```C
-     #include<stdio.h>
-     int main()
-     {
-       int x,array[5];
-       printf("\n");
-       
-       for(x=1;x<=5;x++)
-       {  printf("Enter [%d] element: ", x);
-          scanf("%d", &array[x]);  }
-          
-       for(x=1;x<=5;x++)
-       {  printf("\nElement [%d] = %d", x, array[x]);  }
-
-     return 0;
-     }
-```
-
-### Output of the Program
-
-     Enter [1] element: 4
-     Enter [2] element: 5
-     Enter [3] element: 6
-     Enter [4] element: 9
-     Enter [5] element: 2
-
-     Element [1] = 4
-     Element [2] = 5
-     Element [3] = 6
-     Element [4] = 9
-     Element [5] = 2
-
-### 38. Program of 
+### 37. Program of 
 
 ```C
 
