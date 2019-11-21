@@ -541,7 +541,7 @@
     Enter the Interger: 171
     Fizz
 
-###  17. Program of print a Calculator using puts function 
+###  17. Program swap two numbers using call by value 
 
 ```C
     #include <stdio.h>
@@ -571,7 +571,7 @@
     First integer = 56
     Second integer = 1
 
-###  18. Program to print a Face using puts function
+###  18. Program swap two numbers using call by reference
 
 ```C
 #include <stdio.h>
