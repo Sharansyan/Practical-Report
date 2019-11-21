@@ -851,7 +851,7 @@
       ********* 
      ***********
    
-### 24. Program of Linear search for One Dimensional array
+### 24. Program to implement Linear search for One Dimensional array
 
 ```C
     #include<stdio.h>
@@ -896,7 +896,7 @@
     Search is Unsucessfull 2 Element is not present in the array
     
 
-### 25. Program of linear search with desirable values
+### 25. Program to implement linear search with desirable values
 
 ```C
     #include<stdio.h>
@@ -942,7 +942,7 @@
 
     8 is not present in the array
  
-### 26. Program of Binary search with desirable values
+### 26. Program to implement Binary search with desirable values
 
 ```C
     #include<stdio.h>
