@@ -1508,15 +1508,48 @@ long factorial(int x)
      Enter a number to calculate it's factorial: 12
      12! = 479001600
      
-### 39. Program to 
+### 39. Program to Store Information of a Student using Structure
 
 ```C
+    #include<stdio.h>
+    struct student
+    {  char name[50];
+       long int ph,marks;  };
 
+    int main()
+    {
+      int i,N;
+      printf("\nEnter the information of student: \n");
+
+      struct student s;
+      printf("Enter Name: ");
+       scanf("%s", &s.name);
+      printf("Enter Phone Number: ");
+       scanf("%ld", &s.ph);
+      printf("Enter Marks: ");
+       scanf("%d", &s.marks);
+
+      printf("\nEntered Information is: \n");
+  
+      printf("Name: %s\n", s.name);
+      printf("Age: %ld\n", s.ph);
+      printf("Marks: %d\n", s.marks);
+
+    return 0;
+    }
 ```
 
 ### Output of the Program
 
+    Enter the information of student: 
+    Enter Name: Sharanjit
+    Enter Phone Number: 9465329287
+    Enter Marks: 86
 
+    Entered Information is: 
+    Name: Sharanjit
+    Age: 9465329287
+    Marks: 86
 
 
 
