@@ -574,32 +574,36 @@
 ###  18. Program to print a Face using puts function
 
 ```C
-    #include<stdio.h>
-    void main()
-    {
-         puts("________________");
-         puts("|   XXXXXXXXX  |");
-         puts("|   ( ^   ^ )  |");
-         puts("|   ( 0   0 )  |");
-         puts("|    \\  |  /   |");
-         puts("|     \\ = /    |");
-         puts("|      \\_/     |");
-         puts("|       |      |");
-         puts("|_______|______|\n");
-    }
+#include <stdio.h>
+void swap(int*, int*);
+
+   int main()
+   {  int x, y;
+      printf("\nEnter the two integers: ");
+      scanf("%d %d", &x, &y);
+      printf("\nBefore Swapping\nx = %d\ny = %d", x, y);
+      
+      swap(&x, &y);
+      printf("\nAfter Swapping\nx = %d\ny = %d", x, y);
+      return 0;  }
+      
+   void swap(int *a, int *b)
+   {  int temp;
+      temp = *b;
+      *b = *a;
+      *a = temp;  }
 ```
 
 ### Output of the program
 
-    ________________
-    |   XXXXXXXXX  |
-    |   ( ^   ^ )  |
-    |   ( 0   0 )  |
-    |    \  |  /   |
-    |     \ = /    |
-    |      \_/     |
-    |       |      |
-    |_______|______|
+     Enter the two integers: 45 98
+
+     Before Swapping
+     x = 45
+     y = 98
+     After Swapping
+     x = 98
+     y = 45
 
 ###  19. Program of Addition of 2x2 Matrix
 
