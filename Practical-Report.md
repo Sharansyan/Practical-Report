@@ -1465,3 +1465,51 @@ int main()
     8    
     9
 
+### 38. Program to find Factorial 
+
+```C
+#include<stdio.h>
+long factorial(int);
+
+int main()
+  {  int x;
+     long fact = 1;
+     printf("\nEnter a number to calculate it's factorial: ");
+     scanf("%d", &x);
+     printf("%d! = %ld\n", x, factorial(x));
+     return 0;  }
+
+long factorial(int x)
+  {  int c;
+     long ans=1;
+     for (c=x; c>1; c--)
+     {  ans *= c;  }
+     return ans;
+  }
+```
+
+### Output of the Program
+
+     Enter a number to calculate it's factorial: 6
+     6! = 720
+
+     Enter a number to calculate it's factorial: 12
+     12! = 479001600
+     
+### 39. Program to 
+
+```C
+
+```
+
+### Output of the Program
+
+
+
+
+
+
+
+
+
+
