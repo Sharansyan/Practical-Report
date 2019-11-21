@@ -487,32 +487,44 @@
      
      Average of 8 elements = 4.500    
 
-###  15. Program to print F by using #
+###  15. Program to print Fibbonacci Series
 
 ```C
-    #include<stdio.h>
-    int main()
-    {
+#include<stdio.h>
+int fibbo(int f);
 
-         printf("\n########\n#\n#\n#\n#####\n#\n#\n#\n#\n#\n#\n");
-         return 0;
+int main()                                                                      
+{
+   int x,i,f=0;
+   printf("\nEnter fibbonacci Number: ");
+   scanf("%d", &x);
 
-    }
+   for(i=1; i<=x; i++)
+     {  printf("%d\n", fibbo(f));
+        f++;  }
+return 0;
+}
+
+int fibbo(int f)
+  {  if(f==1 || f==0)
+     return f;
+     else
+     return ( fibbo(f-1) + fibbo(f-2) );  }
 ```
 
 ### Output of the program
 
-    ########
-    #
-    #
-    #
-    #####
-    #
-    #
-    #
-    #
-    #
-    #
+    Enter fibbonacci Number: 10
+    0
+    1
+    1 
+    2    
+    3    
+    5    
+    8
+    13
+    21
+    34
 
 ###  16. Program to find FizzBuzz od a Integer
 
