@@ -544,33 +544,32 @@
 ###  17. Program of print a Calculator using puts function 
 
 ```C
-    #include<stdio.h>
-    void main()
+    #include <stdio.h>
+    int main()
     {
-         puts("\n\
-          _______________\n\
-         | 1 | 2 | 3 |   |\n\
-         |___|___|___|   |\n\
-         | 4 | 5 | 6 | + |\n\
-         |___|___|___|___|\n\
-         | 7 | 8 | 9 | - |\n\
-         |___|___|___|___|\n\
-         |     0     | * |\n\
-         |___________|___|\n");
+      int x, y, t;
+      printf("\n\nEnter two integers: ");
+      scanf("%d %d", &x, &y);
+      printf("\n\nBefore Swapping: \nFirst integer = %d\nSecond integer = %d\n", x, y);
+      t = x;
+      x = y;
+      y = t;
+      printf("\n\nAfter Swapping: \nFirst integer = %d\nSecond integer = %d\n", x, y);
+      return 0;
     }
 ```
 
 ### Output of the program
 
-     _______________
-    | 1 | 2 | 3 |   |
-    |___|___|___|   |
-    | 4 | 5 | 6 | + |
-    |___|___|___|___|
-    | 7 | 8 | 9 | - |
-    |___|___|___|___|
-    |     0     | * |
-    |___________|___|
+    Enter two integers: 1  56
+
+    Before Swapping:
+    First integer = 1
+    Second integer = 56
+
+    After Swapping:
+    First integer = 56
+    Second integer = 1
 
 ###  18. Program to print a Face using puts function
 
