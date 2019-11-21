@@ -1423,7 +1423,7 @@ return 0;
      146.00 * 21.00 = 3066.00
  
 ### 37. Program to take 5 values from the user and store them in an array and Print the elements
-stored in the array
+### stored in the array
 
 ```C
      #include<stdio.h>
