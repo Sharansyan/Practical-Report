@@ -35,7 +35,7 @@
 
     Answer is: = 123.525
    
-###  1. Program to print Hello World
+###  2. Program to print Hello World
 
 ```C
     #include<stdio.h>
