@@ -1278,7 +1278,7 @@ return 0;
 
     Sum of given series = 200.00
 
-###32. Program to multiply Two Floating Point Numbers
+### 32. Program to multiply Two Floating Point Numbers
 
 ```C
      #include<stdio.h>
@@ -1304,7 +1304,7 @@ return 0;
   
      Answer = 3.840
      
-###33. Program to find weather the Number is Even or Odd using if-else statement
+### 33. Program to find weather the Number is Even or Odd using if-else statement
 
 ```C
      #include<stdio.h>
