@@ -14,7 +14,7 @@
 5. Program to find Area, Perimeter of a Rectangle
 6. Program to find Interest
 7. Program to find Maximum
-8. Program of Sum of two Constants
+8. Program to find a Power of a Number
 9. Program To find Minimum
 10. Program to take 5 values from the user and store them in an array and Print the elements stored in the array
 11. Program to use Arithmetic Operators
@@ -265,24 +265,32 @@
 
     Maximum value is: 5.00
 
-###  8. Program of Sum of two Constants
+###  8. Program to find a Power of a Number
 
 ```C
-    #include<stdio.h>
-    int main()
-    {
-         int a=100,b=120,c;
-         c = a+b;
-         printf("\na=100\nb=120\nSum  of a and b is :%d",c);
-         return 0;
-    }
+#include<stdio.h>
+int main()
+{
+  int base,power,ans=1;
+  printf("\nEnter base number: ");
+   scanf("%d",&base);
+  printf("Enter exponent(power): ");
+   scanf("%d",&power);
+
+while (power!=0)
+ {  ans *= base;
+    power--;  }
+
+  printf("Answer = %d\n", ans);
+return 0;
+}
 ```
 
 ### Output of the program
 
-    a=100
-    b=120
-    Sum  of a and b is :220
+    Enter base number: 5
+    Enter exponent(power): 4
+    Answer = 625
 
 ###  9. Program To find Minimum
 
