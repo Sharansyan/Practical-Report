@@ -1620,12 +1620,12 @@ int a[10][10], b[10][10], result[10][10], r1, c1, r2, c2, i, j, k;
   scanf("%d %d", &r2, &c2);
     
 // Column of first matrix should be equal to column of second matrix
-  while (c1 != r2)                                                                                                                                                   
-  {                                                                                                                                                                  
-  printf("Error! Column of First Matrix is not equal to Row of Second Matrix.\n\n");                                                                                 
-  printf("Enter Rows and Column for First Matrix: ");                                                                                                                
-  scanf("%d %d", &r1, &c1);                                                                                                                                          
-  printf("Enter Rows and Column for Second Matrix: ");                                                                                                               
+  while (c1 != r2)
+  {
+  printf("Error! Column of First Matrix is not equal to Row of Second Matrix.\n\n");
+  printf("Enter Rows and Column for First Matrix: ");
+  scanf("%d %d", &r1, &c1);  
+  printf("Enter Rows and Column for Second Matrix: ");
   scanf("%d %d", &r2, &c2);
   }
   // Storing elements of second matrix.
@@ -1644,11 +1644,11 @@ int a[10][10], b[10][10], result[10][10], r1, c1, r2, c2, i, j, k;
     result[i][j] = 0;
     }
  
-// Multiplying matrices a and b and storing result in result matrix                                                                                                  
-  for(i=0; i<r1; ++i)  
+// Multiplying matrices a and b and storing result in result matrix
+  for(i=0; i<r1; ++i)
   for(j=0; j<c2; ++j)  
-      for(k=0; k<c1; ++k)                                                                                                                                            
-      {                                                                                                                                                              
+      for(k=0; k<c1; ++k)
+      {
       result[i][j] += a[i][k] * b[k][j];
       }
       
@@ -1660,8 +1660,8 @@ int a[10][10], b[10][10], result[10][10], r1, c1, r2, c2, i, j, k;
     printf("%d  ", result[i][j]);
     if(j == c2-1)
     printf("\n\n");
-    }   
-return 0;    
+    }
+return 0;
 }     
 ```
 
@@ -1683,12 +1683,5 @@ return 0;
     Enter elements b[2][2]: 2
     
     Output Matrix:
-    21  22                                                                                                                                                                                                                                                                                                                                               
+    21  22   
     41  42
-
-
-
-
-
-
-
