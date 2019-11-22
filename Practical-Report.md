@@ -1637,20 +1637,21 @@ int a[10][10], b[10][10], result[10][10], r1, c1, r2, c2, i, j, k;
     scanf("%d", &b[i][j]);
     }
 
-  
 // Initializing all elements of result matrix to 0
   for(i=0; i<r1; ++i)
     for(j=0; j<c2; ++j)
     {
     result[i][j] = 0;
     }
-                                                                                                                                                                     // Multiplying matrices a and b and storing result in result matrix                                                                                                  
+ 
+// Multiplying matrices a and b and storing result in result matrix                                                                                                  
   for(i=0; i<r1; ++i)  
   for(j=0; j<c2; ++j)  
       for(k=0; k<c1; ++k)                                                                                                                                            
       {                                                                                                                                                              
       result[i][j] += a[i][k] * b[k][j];
       }
+      
 // Displaying the result
   printf("\nOutput Matrix:\n");
   for(i=0; i<r1; ++i)
@@ -1660,10 +1661,30 @@ int a[10][10], b[10][10], result[10][10], r1, c1, r2, c2, i, j, k;
     if(j == c2-1)
     printf("\n\n");
     }   
-return 0;                                                                                                                                                                   }     
+return 0;    
+}     
 ```
 
 ### Output of the Program
+
+    Enter rows and column for first matrix: 2 2
+    Enter rows and column for second matrix: 2 2
+    
+    Enter elements of matrix 1:
+    Enter elements a[1][1]: 2
+    Enter elements a[1][2]: 3
+    Enter elements a[2][1]: 4
+    Enter elements a[2][2]: 5
+
+    Enter elements of matrix 2:
+    Enter elements b[1][1]: 9
+    Enter elements b[1][2]: 8
+    Enter elements b[2][1]: 1
+    Enter elements b[2][2]: 2
+    
+    Output Matrix:
+    21  22                                                                                                                                                                                                                                                                                                                                               
+    41  42
 
 
 
