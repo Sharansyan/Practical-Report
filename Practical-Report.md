@@ -6,7 +6,7 @@
 ## **SECTION - CE(B2)**
 ----------------------------------------------
 
-## INDEX
+# INDEX
 1. Program to find Sum
 2. Program to print Hello World
 3. Program to print a Table
