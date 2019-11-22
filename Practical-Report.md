@@ -36,7 +36,7 @@
 27. Program to find Prime number
 28. Program of days of the week
 29. Program to print Even numbers using while loop
-30 Program of Volume(Different Shapes)
+30. Program of Volume(Different Shapes)
 31. Program to find Sum of A.P series
 32. Program to multiply Two Floating Point Numbers
 33. Program to find weather the Number is Even or Odd using if-else statement
