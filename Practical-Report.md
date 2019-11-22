@@ -46,7 +46,7 @@
 37. Program to implement Bubble Sort
 38. Program to find Factorial
 39. Program to Store Information of a Student using Structure
-
+40. Program to find Multiplication of Matrix using array
 
 ###  1. Program to find Sum
 
@@ -1600,6 +1600,70 @@ long factorial(int x)
     Age: 9465329287
     Marks: 86
 
+### 40. Program to find Multiplication of Matrix using array
+
+```C
+#include <stdio.h>
+int main()
+{
+  
+int a[10][10], b[10][10], result[10][10], r1, c1, r2, c2, i, j, k;
+// a and b are 1st and 2nd matrix
+// r1 and c1 is rows and column of 1st matrix respectively
+// r2 and c2 is rows and column of 2nt matrix respectively
+// result[10][10] is the multiplication of matrix 1 and 2
+
+// Geting the value of rows and columns
+  printf("\nEnter rows and column for first matrix: ");
+  scanf("%d %d", &r1, &c1);
+  printf("Enter rows and column for second matrix: ");
+  scanf("%d %d", &r2, &c2);
+    
+// Column of first matrix should be equal to column of second matrix
+  while (c1 != r2)                                                                                                                                                   
+  {                                                                                                                                                                  
+  printf("Error! Column of First Matrix is not equal to Row of Second Matrix.\n\n");                                                                                 
+  printf("Enter Rows and Column for First Matrix: ");                                                                                                                
+  scanf("%d %d", &r1, &c1);                                                                                                                                          
+  printf("Enter Rows and Column for Second Matrix: ");                                                                                                               
+  scanf("%d %d", &r2, &c2);
+  }
+  // Storing elements of second matrix.
+  printf("\nEnter elements of matrix 2:\n");
+  for(i=0; i<r2; ++i)
+    for(j=0; j<c2; ++j)
+    {
+    printf("Enter elements b[%d][%d]: ",i+1, j+1);
+    scanf("%d", &b[i][j]);
+    }
+
+  
+// Initializing all elements of result matrix to 0
+  for(i=0; i<r1; ++i)
+    for(j=0; j<c2; ++j)
+    {
+    result[i][j] = 0;
+    }
+                                                                                                                                                                     // Multiplying matrices a and b and storing result in result matrix                                                                                                  
+  for(i=0; i<r1; ++i)  
+  for(j=0; j<c2; ++j)  
+      for(k=0; k<c1; ++k)                                                                                                                                            
+      {                                                                                                                                                              
+      result[i][j] += a[i][k] * b[k][j];
+      }
+// Displaying the result
+  printf("\nOutput Matrix:\n");
+  for(i=0; i<r1; ++i)
+    for(j=0; j<c2; ++j)
+    {
+    printf("%d  ", result[i][j]);
+    if(j == c2-1)
+    printf("\n\n");
+    }   
+return 0;                                                                                                                                                                   }     
+```
+
+### Output of the Program
 
 
 
