@@ -6,6 +6,48 @@
 ## **SECTION - CE(B2)**
 ----------------------------------------------
 
+## INDEX
+1. Program to find Sum
+2. Program to print Hello World
+3. Program to print a Table
+4. Program to find Area, Perieter, Volume of a Circle
+5. Program to find Area, Perimeter of a Rectangle
+6. Program to find Interest
+7. Program to find Maximum
+8. Program of Sum of two Constants
+9. Program To find Minimum
+10. Program to take 5 values from the user and store them in an array and Print the elements stored in the array
+11. Program to use Arithmetic Operators
+12. Program to use Assignment Operators
+13. Program to use Operator Precedence
+14. Program to find Average
+15. Program to print Fibbonacci Series
+16. Program to find FizzBuzz od a Integer
+17. Program swap two numbers using call by value
+18. Program swap two numbers using call by reference
+19. Program of Addition of 2x2 Matrix
+20. Program of Multiplication of 2x2 Matrix
+21. Program of FizzBuzz in a continues loop
+22. Program to find Sum by using function
+23. Program to print a Pyramid
+24. Program to implement Linear search for One Dimensional array
+25. Program to implement linear search with desirable values
+26. Program to implement Binary search with desirable values
+27. Program to find Prime number
+28. Program of days of the week
+29. Program to print Even numbers using while loop
+30 Program of Volume(Different Shapes)
+31. Program to find Sum of A.P series
+32. Program to multiply Two Floating Point Numbers
+33. Program to find weather the Number is Even or Odd using if-else statement
+34. Program to find Sum of First 10 Natural Numbers using for loop
+35. Program to print Odd numbers using do while loop
+36. Program of a Simple Calculator
+37. Program to implement Bubble Sort
+38. Program to find Factorial
+39. Program to Store Information of a Student using Structure
+
+
 ###  1. Program to find Sum
 
 ```C
