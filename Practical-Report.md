@@ -1518,7 +1518,6 @@ long factorial(int x)
 
     int main()
     {
-      int i,N;
       printf("\nEnter the information of student: \n");
 
       struct student s;
