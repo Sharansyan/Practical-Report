@@ -18,7 +18,7 @@
      printf("awnser=%d\n", result);
      return 0;
      }
-     ```
+ ```
 ## Output
    
      Enter base number
