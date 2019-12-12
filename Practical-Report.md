@@ -1069,30 +1069,33 @@ void swap(int*, int*);
 ### 27. Program to find Prime number
 
 ```C
-      #include<stdio.h>
-      int main()
-      { 
-      int a;
-      printf("\nEnter the Number: ");
-      scanf("%d",&a);
+#include<stdio.h>
+int main()
+{
 
-       for(int x=1;x<a;x++)
-       { 
-         if(a%x!=0)
-         {  printf("%d is a Prime Number",a);
-            break;  }
-         else
-         {  printf("%d is not a Prime Number",a);
-            break;  }
-        }
-      return 0;
-      }
+int a,flag = 0;
+
+printf("\nEnter the Number: ");
+scanf("%d",&a);
+
+
+  for(int x=2; x<a; x++)
+  {  if(a%x==0)
+     {  flag = 1;
+        break;  }
+  }
+if(flag == 1)
+printf("%d is not a Prime Number",a);
+if(flag == 0)
+printf("%d is a Prime Number",a);
+return 0;
+}
 ```
 
 ### Output of the program
 
       Enter the Number: 7
-      7 is not a Prime Number
+      7 is a Prime Number
 
       Enter the Number: 8
       8 is not a Prime Number
