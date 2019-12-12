@@ -21,7 +21,7 @@
 12. Program to use Assignment Operators
 13. Program to use Operator Precedence
 14. Program to find Average
-15. Program to print Fibbonacci Series
+15. Program to print Fibbonacci Series ( using Recursion )
 16. Program to find FizzBuzz od a Integer
 17. Program swap two numbers using call by value
 18. Program swap two numbers using call by reference
@@ -36,7 +36,7 @@
 27. Program to find Prime number
 28. Program of days of the week
 29. Program to print Even numbers using while loop
-30. Program of Volume(Different Shapes)
+30. Program of Volume (Different Shapes)
 31. Program to find Sum of A.P series
 32. Program to multiply Two Floating Point Numbers
 33. Program to find weather the Number is Even or Odd using if-else statement
@@ -47,6 +47,11 @@
 38. Program to find Factorial
 39. Program to Store Information of a Student using Structure
 40. Program to find Multiplication of Matrix using array
+41. Program to Find Palindrome Number
+42. Program to Implement Bubble Sort (using Recursion)
+43. Program to Find Factorial (using Recursion)
+44. Program to find Fibonacci series
+45. Program to find roots of quadratic eqation
 
 ###  1. Program to find Sum
 
@@ -537,14 +542,13 @@ return 0;
      
      Average of 8 elements = 4.500    
 
-###  15. Program to print Fibbonacci Series
+###  15. Program to print Fibbonacci Series ( using Recursion )
 
 ```C
 #include<stdio.h>
 int fibbo(int f);
 
 int main()                                                                      
-{
    int x,i,f=0;
    printf("\nEnter fibbonacci Number: ");
    scanf("%d", &x);
@@ -1667,7 +1671,6 @@ int a[10][10], b[10][10], result[10][10], r1, c1, r2, c2, i, j, k;
 return 0;
 }     
 ```
-
 ### Output of the Program
 
     Enter rows and column for first matrix: 2 2
@@ -1688,3 +1691,196 @@ return 0;
     Output Matrix:
     21  22   
     41  42
+
+## 41. Program to Find Palindrome Number
+
+```C
+      #include <stdio.h>
+      int main()
+      {
+      int n, reverse = 0, temp;
+      printf("Enter a number to check if it is a palindrome or not\n");
+      scanf("%d",&n);
+      temp = n;
+
+      while( temp != 0 )
+      {
+      reverse = reverse * 10;
+      reverse = reverse + temp%10;
+      temp = temp/10;
+      }
+
+      if ( n == reverse )
+      printf("%d is a palindrome number.\n", n);
+      else
+      printf("%d is not a palindrome number.\n", n);
+      return 0;
+      }
+```
+### Output
+
+      Enter a number to check if it is a palindrome or not
+      12321
+      12321 is a palindrome number
+      
+## 42. Program to Implement Bubble Sort (using Recursion)
+
+```C
+#include<stdio.h>
+void BubbleSortRecursion(int a[],int num);
+main()
+{
+int i,j,num,temp;
+printf("Enter number of elements\n");
+scanf("%d",&num);
+int a[num];
+printf("Enter numbers\n");
+for(i=0;i<num;i++)
+{
+ scanf("%d",&a[i]);
+}
+BubbleSortRecursion(a,num);
+printf("Ascending oreder of given numbers is\n");
+for(i=0;i<num;i++)
+{
+ printf("%d\n",a[i]);
+}
+}
+void BubbleSortRecursion(int a[],int num)
+{
+ int i,j,temp;
+ i=num;
+ if(i>0)
+     {
+       for(j=0;j<num-1;j++)
+       {
+         if(a[j]>a[j+1])
+          {
+            temp=a[j];
+            a[j]=a[j+1];
+            a[j+1]=temp;
+          }
+        }
+        BubbleSortRecursion(a,num-1);
+      }
+      else
+      {
+       return;
+      }
+}
+```
+### Output of the Program
+
+     Enter n mube rof elements
+     10
+     Enter numbers
+     56
+     43
+     90
+     23
+     35
+     30
+     12
+     100
+     245
+     567
+     Ascending order of given numbers is
+     12
+     23
+     30
+     35
+     43
+     56
+     90
+     100
+     245
+     567
+
+## 43. Program to Find Factorial (using Recursion)
+
+```C
+#include<stdio.h>
+long int multiplyNumbers(int n);
+int main() {
+    int n;
+    printf("Enter a positive integer: ");
+    scanf("%d",&n);
+    printf("Factorial of %d = %ld", n, multiplyNumbers(n));
+    return 0;
+}
+
+long int multiplyNumbers(int n) {
+    if (n>=1)
+        return n*multiplyNumbers(n-1);
+    else
+        return 1;
+}
+
+```
+### Output of the Program
+
+     Enter a positive integer: 6
+     Factorial of 6 = 720
+
+## 44. Program to find Fibonacci series
+
+```C
+#include <stdio.h>
+int main() {
+    int i, n, t1 = 0, t2 = 1, nextTerm;
+    printf("Enter the number of terms: ");
+    scanf("%d", &n);
+    printf("Fibonacci Series: ");
+
+    for (i = 1; i <= n; ++i) {
+        printf("%d, ", t1);
+        nextTerm = t1 + t2;
+        t1 = t2;
+        t2 = nextTerm;
+    }
+```
+
+### Output of the Program
+
+     Enter the number of terms: 10
+     Fibonacci Series: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 
+
+## 45. Program to find roots of quadratic eqation
+
+```C
+#include <math.h>
+#include <stdio.h>
+int main() {
+    double a, b, c, discriminant, root1, root2, realPart, imagPart;
+    printf("Enter coefficients a, b and c: ");
+    scanf("%lf %lf %lf", &a, &b, &c);
+    discriminant = b * b - 4 * a * c;
+    // condition for real and different roots
+    if (discriminant > 0) {
+        root1 = (-b + sqrt(discriminant)) / (2 * a);
+        root2 = (-b - sqrt(discriminant)) / (2 * a);
+        printf("root1 = %.2lf and root2 = %.2lf", root1, root2);
+    }
+    // condition for real and equal roots
+    else if (discriminant == 0) {
+        root1 = root2 = -b / (2 * a);
+        printf("root1 = root2 = %.2lf;", root1);
+    }
+    // if roots are not real
+    else {
+        realPart = -b / (2 * a);
+        imagPart = sqrt(-discriminant) / (2 * a);
+        printf("root1 = %.2lf+%.2lfi and root2 = %.2f-%.2fi", realPart, imagPart, realPart, imagPart);
+    }
+    return 0;
+} 
+```
+
+### Output of the Program
+
+     Enter coefficients a, b and c: 
+     2.3
+     4
+     5.6
+     root1 = -0.87+1.30i and root2 = -0.87-1.30i
+
