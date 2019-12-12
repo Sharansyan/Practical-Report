@@ -1,5 +1,5 @@
 # Palindrome Number
-
+```C
       #include <stdio.h>
       int main()
       {
@@ -21,7 +21,7 @@
       printf("%d is not a palindrome number.\n", n);
       return 0;
       }
-
+```
 ## Output
 
       Enter a number to check if it is a palindrome or not
