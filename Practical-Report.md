@@ -580,7 +580,7 @@ int fibbo(int f)
     21
     34
 
-###  16. Program to find FizzBuzz od a Integer
+###  16. Program to find FizzBuzz odd an Integer
 
 ```C
     #include<stdio.h>
