@@ -1728,7 +1728,7 @@ return 0;
 ```C
 #include<stdio.h>
 void BubbleSortRecursion(int a[],int num);
-main()
+int main()
 {
 int i,j,num,temp;
 printf("Enter number of elements\n");
