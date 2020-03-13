@@ -929,7 +929,7 @@ void swap(int*, int*);
     int array[12]={1,5,9,7,3,82,46,23,23,5,10,3};
     int size=12,flag=0,item,a;
 
-    printf("\nEnter the Value: ");
+    printf("\nEnter the Value to be Searched: ");
     scanf("%d", &a);
 
     for(int i=0;i<size;i++)
