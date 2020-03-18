@@ -652,11 +652,11 @@ void swap(int*, int*);
       printf("\nAfter Swapping\nx = %d\ny = %d", x, y);
       return 0;  }
       
-   void swap(int *a, int *b)
+   void swap(int *x, int *y)
    {  int temp;
-      temp = *b;
-      *b = *a;
-      *a = temp;  }
+      temp = *y;
+      *y = *x;
+      *x = temp;  }
 ```
 
 ### Output of the program
